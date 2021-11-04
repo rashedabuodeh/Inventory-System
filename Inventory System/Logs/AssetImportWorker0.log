@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 3964 MB
+OS: 'Windows 10 Pro; OS build 22000.258; Version 2009; 64bit' Language: 'en' Physical Memory: 16298 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,128 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Home/Documents/GitHub/Inventory-System/Inventory System
+C:/Users/USER/Documents/GitHub/Inventory-System/Inventory System
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61780
-Successfully changed project path to: C:/Users/Home/Documents/GitHub/Inventory-System/Inventory System
-C:/Users/Home/Documents/GitHub/Inventory-System/Inventory System
+54647
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/Inventory-System/Inventory System
+C:/Users/USER/Documents/GitHub/Inventory-System/Inventory System
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 141.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Home/Documents/GitHub/Inventory-System/Inventory System/Assets
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/Inventory-System/Inventory System/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce 940MX (ID=0x179c)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f0a)
     Vendor:   
-    VRAM:     2019 MB
-    Driver:   23.21.13.8863
+    VRAM:     3961 MB
+    Driver:   27.21.14.6192
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004663 seconds.
+Registered in 0.000975 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 121.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.337 seconds
+- Completed reload, in  1.284 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3338ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (1284ms)
+		BeginReloadAssembly (37ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (984ms)
-			LoadAssemblies (185ms)
-			RebuildTransferFunctionScriptingTraits (3ms)
-			SetupTypeCache (397ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (353ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (388ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (146ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.029659 seconds.
+Registered in 0.002772 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 104.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at StarterAssets.PackageChecker.CheckPackage () [0x001c2] in C:\Users\Home\Documents\GitHub\Inventory-System\Inventory System\Assets\StarterAssets\Editor\PackageChecker\PackageChecker.cs:105 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <208f92fc783546f9abbe643bfc23920c>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
 Mono: successfully reloaded assembly
-- Completed reload, in  2.465 seconds
+- Completed reload, in  0.937 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2469ms)
-		BeginReloadAssembly (299ms)
+	ReloadAssembly (938ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (2066ms)
-			LoadAssemblies (298ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (626ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (902ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (323ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (178ms)
-				ProcessInitializeOnLoadAttributes (455ms)
-				ProcessInitializeOnLoadMethodAttributes (144ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.2 MB.
-System memory in use after: 142.4 MB.
+Unloading 3223 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.6 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3669.
-Total: 7.278600 ms (FindLiveObjects: 0.671700 ms CreateObjectMapping: 0.286400 ms MarkObjects: 6.142500 ms  DeleteObjects: 0.173900 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3683.
+Total: 3.135400 ms (FindLiveObjects: 0.240600 ms CreateObjectMapping: 0.126800 ms MarkObjects: 2.694900 ms  DeleteObjects: 0.072200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -147,111 +132,476 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Import Request.
   path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4177ae725e316be749ea3b44f13a68f') in 0.020165 seconds 
-  Import took 0.028210 seconds .
+  artifactKey: Guid(571c44f4fc73e83448777042114ca115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(571c44f4fc73e83448777042114ca115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1418f376e7de327bb00fe868409cbdc2') in 0.014908 seconds 
+  Import took 0.018744 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.654505 seconds.
+  Time since last request: 5.986884 seconds.
   path: Assets/ExampleAssets
   artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac45704b3e904ca5b19a6457cc79ac') in 0.008676 seconds 
-  Import took 0.017490 seconds .
+Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f803e1b12591de9878c5dffbdd6bf0') in 0.009988 seconds 
+  Import took 0.015749 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.351673 seconds.
-  path: Assets/network of paths/Terrain.asset
-  artifactKey: Guid(82fd6bcf2abe7af4cad05f93487f525d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/network of paths/Terrain.asset using Guid(82fd6bcf2abe7af4cad05f93487f525d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2542ab9b42d6c7b791147dd4e76d189') in 0.692125 seconds 
-  Import took 0.706194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.466135 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(70ac5279cc6c44b4e8710f5bc26eb73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(70ac5279cc6c44b4e8710f5bc26eb73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3514de5abd51c530725e958fa7423e7b') in 0.010731 seconds 
-  Import took 0.020853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.405169 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a913a0049096cde5d6a727232f232f') in 0.010519 seconds 
-  Import took 0.021560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.037320 seconds.
-  path: Assets/Easy Weapons/Demo/first_person.unity
-  artifactKey: Guid(ec31fac9cd13b404c95aa46bb9df00ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/first_person.unity using Guid(ec31fac9cd13b404c95aa46bb9df00ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e96b69199052e6d60823b45b0fb54f') in 0.008603 seconds 
-  Import took 0.019168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.184371 seconds.
-  path: Assets/Easy Weapons/Demo/New Terrain.asset
-  artifactKey: Guid(40d73ad4793af274388707e3481e49e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/New Terrain.asset using Guid(40d73ad4793af274388707e3481e49e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194e735fd91ebba04ae981bf9d278183') in 0.252649 seconds 
-  Import took 0.262262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.333817 seconds.
+  Time since last request: 6.911614 seconds.
   path: Assets/Easy Weapons/Demo/newdemo.unity
   artifactKey: Guid(29a95fb3f098c9e4bbc7cb1eb4d2bc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/newdemo.unity using Guid(29a95fb3f098c9e4bbc7cb1eb4d2bc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2339ddca84c04b8f1829daa2be906b6') in 0.010901 seconds 
-  Import took 0.023463 seconds .
+Start importing Assets/Easy Weapons/Demo/newdemo.unity using Guid(29a95fb3f098c9e4bbc7cb1eb4d2bc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ae81fdfad8f36bd76c3fae6c537661') in 0.010032 seconds 
+  Import took 0.015679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.234823 seconds.
+  path: Assets/Easy Weapons/Demo/first_person.unity
+  artifactKey: Guid(ec31fac9cd13b404c95aa46bb9df00ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Weapons/Demo/first_person.unity using Guid(ec31fac9cd13b404c95aa46bb9df00ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49de4bb21f38fd0d92e0346b25fcc43c') in 0.009957 seconds 
+  Import took 0.015622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.111261 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
+  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decf5561e5b580524428adeeee185eea') in 0.019961 seconds 
+  Import took 0.024798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594025 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs
+  artifactKey: Guid(e087ecce43ebbff45a1b360637807d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs using Guid(e087ecce43ebbff45a1b360637807d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7d0c5e7dc0cd5602b8cf10eea24916') in 0.014528 seconds 
+  Import took 0.018486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.886910 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssets.inputactions
+  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847c0bee33a23550a7d4337dca5dc269') in 0.015773 seconds 
+  Import took 0.020668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.918875 seconds.
+  path: Assets/StarterAssets/InputSystem
+  artifactKey: Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem using Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6dcab0e7d03fb55e3c0c78b961cba4') in 0.008355 seconds 
+  Import took 0.014373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.555321 seconds.
+  path: Assets/StarterAssets/StarterAssets_Documentation.pdf
+  artifactKey: Guid(a4b3ee9030379a042983d43d671fcc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/StarterAssets_Documentation.pdf using Guid(a4b3ee9030379a042983d43d671fcc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a3bb50b6ec431df19996417a26064f') in 0.013870 seconds 
+  Import took 0.019583 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3683.
+Total: 3.136300 ms (FindLiveObjects: 0.289900 ms CreateObjectMapping: 0.140800 ms MarkObjects: 2.694900 ms  DeleteObjects: 0.009900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.149044 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes
+  artifactKey: Guid(89e5f9b6a0fcdae4e8ccb4b461925e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes using Guid(89e5f9b6a0fcdae4e8ccb4b461925e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e31348525227d2e96db4da3c7eada4') in 0.009975 seconds 
+  Import took 0.015817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.212690 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground.unity
+  artifactKey: Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground.unity using Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ad1cd3129cd172da94e49b28a309b3') in 0.009629 seconds 
+  Import took 0.014438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.670708 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller
+  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45138b89a3b21c73bdc2a368619cd62') in 0.014226 seconds 
+  Import took 0.018972 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.027029 seconds.
+Registered in 0.596465 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.697 seconds
+- Completed reload, in  2.844 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2699ms)
-		BeginReloadAssembly (528ms)
+	ReloadAssembly (2845ms)
+		BeginReloadAssembly (189ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (268ms)
-		EndReloadAssembly (2041ms)
-			LoadAssemblies (410ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2607ms)
+			LoadAssemblies (1889ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (741ms)
+			SetupTypeCache (278ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (617ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (154ms)
-				ProcessInitializeOnLoadAttributes (418ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.4 MB.
+System memory in use after: 147.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3685.
+Total: 2.956300 ms (FindLiveObjects: 0.253800 ms CreateObjectMapping: 0.134600 ms MarkObjects: 2.550600 ms  DeleteObjects: 0.016400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8967.839129 seconds.
+  path: Assets/Scenes/Game scene Terrain.asset
+  artifactKey: Guid(70ac5279cc6c44b4e8710f5bc26eb73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game scene Terrain.asset using Guid(70ac5279cc6c44b4e8710f5bc26eb73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34baa425aa4b62f947dbac6e144cac4') in 0.051389 seconds 
+  Import took 0.055842 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.862 seconds
+Domain Reload Profiling:
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (722ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.4 MB.
+System memory in use after: 147.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3689.
+Total: 5.421100 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.168200 ms MarkObjects: 4.742000 ms  DeleteObjects: 0.012500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 557.543589 seconds.
+  path: Assets/Easy Weapons/Scripts/Weapon.cs
+  artifactKey: Guid(7cfdbd9104e186642943082e0cd11378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Weapons/Scripts/Weapon.cs using Guid(7cfdbd9104e186642943082e0cd11378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5aeabeda787cfdcd75b85e6f424403e') in 0.010778 seconds 
+  Import took 0.014963 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Domain Reload Profiling:
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (708ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.5 MB.
+System memory in use after: 147.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3691.
+Total: 3.015500 ms (FindLiveObjects: 0.278900 ms CreateObjectMapping: 0.155800 ms MarkObjects: 2.564500 ms  DeleteObjects: 0.014600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (694ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.5 MB.
+System memory in use after: 147.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3693.
+Total: 2.870300 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.120100 ms MarkObjects: 2.485000 ms  DeleteObjects: 0.013000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1968.326399 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ca2e5251d9104a3d5eae32a1af14ef') in 0.268334 seconds 
+  Import took 0.274061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Presets/AudioStreaming.preset
+  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfeba0e839862419ace513930666de8') in 0.013332 seconds 
+  Import took 0.017390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Easy Weapons/Demo/Freight Yard/Source/FBX/container_1.fbx
+  artifactKey: Guid(884b80dcdd576244cbd2d918460ffd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/FBX/container_1.fbx using Guid(884b80dcdd576244cbd2d918460ffd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1df5770b74fd80fca36785c4a5cf143') in 0.069236 seconds 
+  Import took 0.073759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Presets/AudioCompressedInMemory.preset
+  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a1c54d3ad9e549cd91e2f32a0f45b3') in 0.011556 seconds 
+  Import took 0.015534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb70b2109e563381c1b2540d37fd680') in 0.072081 seconds 
+  Import took 0.076246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat
+  artifactKey: Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat using Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf2501266bdbc12bd734f077e12b4a2') in 0.419648 seconds 
+  Import took 0.423614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 206.374797 seconds.
+  path: Assets/Easy Weapons/Scripts/Explosion.cs
+  artifactKey: Guid(f7190ff286432ad439c59553e7fc51e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Weapons/Scripts/Explosion.cs using Guid(f7190ff286432ad439c59553e7fc51e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cda5a5111953b984f1cabe361a9b1f2') in 0.008348 seconds 
+  Import took 0.012537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.292606 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d22bec3b2937c29cd085e1506c06094') in 0.010900 seconds 
+  Import took 0.015828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767572 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a794941a15252fee7bf727492298bd') in 0.009427 seconds 
+  Import took 0.014433 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (850ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.2 MB.
-System memory in use after: 136.4 MB.
+System memory in use before: 150.9 MB.
+System memory in use after: 151.1 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3673.
-Total: 8.062200 ms (FindLiveObjects: 0.489500 ms CreateObjectMapping: 0.326300 ms MarkObjects: 7.136100 ms  DeleteObjects: 0.107900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3738.
+Total: 3.129500 ms (FindLiveObjects: 0.244900 ms CreateObjectMapping: 0.129200 ms MarkObjects: 2.742100 ms  DeleteObjects: 0.012500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -265,65 +615,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 133.399954 seconds.
-  path: Assets/Easy Weapons/Demo/newdemo 1.unity
-  artifactKey: Guid(571c44f4fc73e83448777042114ca115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/newdemo 1.unity using Guid(571c44f4fc73e83448777042114ca115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fc4d133b6e0deb309f71af3010e4a9') in 0.032596 seconds 
-  Import took 0.040994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.051576 seconds.
-  path: Assets/Easy Weapons/Demo/New Terrain.asset
-  artifactKey: Guid(40d73ad4793af274388707e3481e49e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/New Terrain.asset using Guid(40d73ad4793af274388707e3481e49e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69e89fe64cee4c7783b1dd366ad420f') in 0.079324 seconds 
-  Import took 0.088354 seconds .
+  Time since last request: 28.873685 seconds.
+  path: Assets/Scripts/Item.cs
+  artifactKey: Guid(5d1425d1689d5ab438d83d878e7f1468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item.cs using Guid(5d1425d1689d5ab438d83d878e7f1468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd923de6ba9d25a1cf0a20a78107ec2b') in 0.009619 seconds 
+  Import took 0.013660 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.018642 seconds.
+Registered in 0.002662 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.321 seconds
+- Completed reload, in  0.882 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2322ms)
-		BeginReloadAssembly (483ms)
+	ReloadAssembly (883ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (219ms)
-		EndReloadAssembly (1705ms)
-			LoadAssemblies (421ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (734ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (550ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (567ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (381ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.2 MB.
-System memory in use after: 136.4 MB.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.9 MB.
+System memory in use after: 151.1 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3674.
-Total: 4.672500 ms (FindLiveObjects: 0.419900 ms CreateObjectMapping: 0.227600 ms MarkObjects: 3.989400 ms  DeleteObjects: 0.034200 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3740.
+Total: 2.963600 ms (FindLiveObjects: 0.268000 ms CreateObjectMapping: 0.135700 ms MarkObjects: 2.546200 ms  DeleteObjects: 0.012800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -337,1425 +679,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.801150 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(571c44f4fc73e83448777042114ca115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(571c44f4fc73e83448777042114ca115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e7eb18e273ef099419f932a441ca79') in 0.034420 seconds 
-  Import took 0.054045 seconds .
+  Time since last request: 80.247186 seconds.
+  path: Assets/Scripts/InventoryItem.cs
+  artifactKey: Guid(5969bfc29290f974ea9859d824370354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InventoryItem.cs using Guid(5969bfc29290f974ea9859d824370354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b36c49c2b646502a7771012f8ce362') in 0.009115 seconds 
+  Import took 0.013463 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 200.407656 seconds.
-  path: Assets/Game scene Terrain.asset
-  artifactKey: Guid(70ac5279cc6c44b4e8710f5bc26eb73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game scene Terrain.asset using Guid(70ac5279cc6c44b4e8710f5bc26eb73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6509b8a10fde4c85af817a83ac9286a2') in 0.023857 seconds 
-  Import took 0.033778 seconds .
+  Time since last request: 207.219294 seconds.
+  path: Assets/Scripts/ItemClasses.cs
+  artifactKey: Guid(9e3b89265264dcf40ac5fc480ec5bdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ItemClasses.cs using Guid(9e3b89265264dcf40ac5fc480ec5bdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7575ff55b8a95dddcd0028b4127f79') in 0.006332 seconds 
+  Import took 0.011439 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.840038 seconds.
-  path: Assets/Easy Weapons/Physic Materials/Stone Sample.physicMaterial
-  artifactKey: Guid(61ea2b0a79297ca45ac6a0214ee3466f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Physic Materials/Stone Sample.physicMaterial using Guid(61ea2b0a79297ca45ac6a0214ee3466f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e506f8cfd7945fd3882ec2831dbdec9') in 0.020133 seconds 
-  Import took 0.030774 seconds .
+  Time since last request: 0.009935 seconds.
+  path: Assets/Scripts/ItemPicker.cs
+  artifactKey: Guid(5d1425d1689d5ab438d83d878e7f1468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ItemPicker.cs using Guid(5d1425d1689d5ab438d83d878e7f1468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473d25057364ba4800ad56c0742d637e') in 0.006177 seconds 
+  Import took 0.010235 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/Easy Weapons/Physic Materials/Wood Sample.physicMaterial
-  artifactKey: Guid(e833e55d65468c141ae4ef564053a9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Physic Materials/Wood Sample.physicMaterial using Guid(e833e55d65468c141ae4ef564053a9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cf426b23c074c2b06fec418c74d052') in 0.009289 seconds 
-  Import took 0.018823 seconds .
+  Time since last request: 12.136602 seconds.
+  path: Assets/Scripts/ItemClasses.cs
+  artifactKey: Guid(9e3b89265264dcf40ac5fc480ec5bdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ItemClasses.cs using Guid(9e3b89265264dcf40ac5fc480ec5bdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1d0a5ce10bc78d422df2e8debfb997') in 0.002025 seconds 
+  Import took 0.006205 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 413.379252 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Terrain Textures/sand_seamless_1.tif
-  artifactKey: Guid(2c8e022b8b7b39b428e4de363f20531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Terrain Textures/sand_seamless_1.tif using Guid(2c8e022b8b7b39b428e4de363f20531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e93e8289d7466ca21657b5592785187') in 0.244243 seconds 
-  Import took 0.260122 seconds .
+  Time since last request: 78.452723 seconds.
+  path: Assets/Scripts/Inventory.cs
+  artifactKey: Guid(b4b25326853caf24e9eb49f38fb50a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory.cs using Guid(b4b25326853caf24e9eb49f38fb50a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e668c5493e7095cbf3b308f6940a733b') in 0.005721 seconds 
+  Import took 0.010364 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.035106 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_sand_seamless_1793646612c42751.terrainlayer
-  artifactKey: Guid(09fdefe6473154443bf5c967af3e9509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_sand_seamless_1793646612c42751.terrainlayer using Guid(09fdefe6473154443bf5c967af3e9509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287462c031b5ed4963ca83a2f675d28f') in 0.077345 seconds 
-  Import took 0.086538 seconds .
+  Time since last request: 414.761324 seconds.
+  path: Assets/Scripts/SerializedInventory.cs
+  artifactKey: Guid(c29d5bbe5f3299a4983a6d606374703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SerializedInventory.cs using Guid(c29d5bbe5f3299a4983a6d606374703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4000b4aaf9395b4039efbb53cd4b71dd') in 0.006002 seconds 
+  Import took 0.011024 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.818093 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_AlbedoTransparency.tif
-  artifactKey: Guid(c6dc62700fa06274b9608a9fce8ed21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_AlbedoTransparency.tif using Guid(c6dc62700fa06274b9608a9fce8ed21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09524cadc981d3e0be4441a4bb79a716') in 0.055095 seconds 
-  Import took 0.062651 seconds .
+  Time since last request: 195.354382 seconds.
+  path: Assets/Scripts/SerializedInventory.cs
+  artifactKey: Guid(c29d5bbe5f3299a4983a6d606374703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SerializedInventory.cs using Guid(c29d5bbe5f3299a4983a6d606374703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976a55f5c238e3d8c880a371e9e1edb4') in 0.002079 seconds 
+  Import took 0.006443 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_RGB.tif
-  artifactKey: Guid(a95378e0fd5828442a6ed903fb3b0bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_RGB.tif using Guid(a95378e0fd5828442a6ed903fb3b0bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7f54505b8804a4260a94849c689eab') in 0.048425 seconds 
-  Import took 0.059488 seconds .
+  Time since last request: 142.048433 seconds.
+  path: Assets/Scripts/InventorySlot.cs
+  artifactKey: Guid(0ca32a4ef6ca1b445a35d00d9631c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InventorySlot.cs using Guid(0ca32a4ef6ca1b445a35d00d9631c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798b6efc3764f2176e0d9a0c2c24bc1b') in 0.006206 seconds 
+  Import took 0.010624 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif
-  artifactKey: Guid(104a45460231b8d4783e0bb2223be28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif using Guid(104a45460231b8d4783e0bb2223be28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e77bf75b2a852f68a3541bed44ac9c') in 0.069972 seconds 
-  Import took 0.081869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_AlbedoTransparency.tif
-  artifactKey: Guid(28d78c5517421f047b88352f3b18e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_AlbedoTransparency.tif using Guid(28d78c5517421f047b88352f3b18e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e694494e350d288d83cef3c0374d446') in 0.044113 seconds 
-  Import took 0.051013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif
-  artifactKey: Guid(b41d630ccc344454bb1f27587f9acd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif using Guid(b41d630ccc344454bb1f27587f9acd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de8a49b9d39d5cc3a92149ba6f29319') in 0.045804 seconds 
-  Import took 0.058840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_Normal.tif
-  artifactKey: Guid(2a3daea46c599324e873f935ab08000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_Normal.tif using Guid(2a3daea46c599324e873f935ab08000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1ebfb99d9109327c19f6980d349b26') in 0.046451 seconds 
-  Import took 0.054725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_MetallicSmoothness.tif
-  artifactKey: Guid(e73adacd5e8f6fc45a491dbd62e71ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_MetallicSmoothness.tif using Guid(e73adacd5e8f6fc45a491dbd62e71ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffb200c3402fcf208305a8c1f89165e') in 0.048085 seconds 
-  Import took 0.058121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_RGB.tif
-  artifactKey: Guid(9b46b2c2f21deb843b7ac9242d5f13e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_RGB.tif using Guid(9b46b2c2f21deb843b7ac9242d5f13e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f04b792e648e41c1b266ef4f588557e') in 0.043194 seconds 
-  Import took 0.051767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.691179 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif
-  artifactKey: Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif using Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693187f9138b385b601995b8228717b8') in 0.041686 seconds 
-  Import took 0.054052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif
-  artifactKey: Guid(1c98c94efa7792645972ecf95e6f86c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif using Guid(1c98c94efa7792645972ecf95e6f86c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a34c270c38b92a1e7b4d82bb538049e') in 0.178896 seconds 
-  Import took 0.191392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000653 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_RGB.tif
-  artifactKey: Guid(64d6bedfd9838e14fb51c78c8e947042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_RGB.tif using Guid(64d6bedfd9838e14fb51c78c8e947042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418b69f2faf947de7d384e14ee135dfb') in 0.043516 seconds 
-  Import took 0.060391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_Normal.tif
-  artifactKey: Guid(b2c5d9c39850da946ae135dcb57faaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_Normal.tif using Guid(b2c5d9c39850da946ae135dcb57faaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74eaf10cd8a1c7f674becb9167f5dc38') in 0.049514 seconds 
-  Import took 0.058462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox/back.tif
-  artifactKey: Guid(09e14ec2c9dd0e74ba5c6a349e03b181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox/back.tif using Guid(09e14ec2c9dd0e74ba5c6a349e03b181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1b12bb694c34cc5c98a2c3dbce568a') in 0.026715 seconds 
-  Import took 0.043425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000660 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/barrel_1_albedo.tif
-  artifactKey: Guid(5324ba9f042969440b47965406fdfb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/barrel_1_albedo.tif using Guid(5324ba9f042969440b47965406fdfb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020711b2519d638333d4702bfb7de610') in 0.023642 seconds 
-  Import took 0.034614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034693 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/barrel_1_AO.tif
-  artifactKey: Guid(b762d43382ef2d54f85b519d710f3444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/barrel_1_AO.tif using Guid(b762d43382ef2d54f85b519d710f3444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4a9cf99716de1d61bceeccdf84203e') in 0.044264 seconds 
-  Import took 0.055082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/barrel_1_metal.tif
-  artifactKey: Guid(2ae35b0b7660e134aa9cd6adfd6ddf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/barrel_1_metal.tif using Guid(2ae35b0b7660e134aa9cd6adfd6ddf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8111b4b9a9d610f86f279b78ee807e') in 0.038165 seconds 
-  Import took 0.052203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/barrel_1_normal.tif
-  artifactKey: Guid(54c4e68f10b44e4478d3411208932787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/barrel_1_normal.tif using Guid(54c4e68f10b44e4478d3411208932787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725f1c26bee9566ba3e42b38622bd1d0') in 0.047366 seconds 
-  Import took 0.060552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Easy Weapons/Extra/Bomb_Launcher/Textures/bomb_launcher_normal.png
-  artifactKey: Guid(d0f95ef9a5a62f649af67a44bca15215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Bomb_Launcher/Textures/bomb_launcher_normal.png using Guid(d0f95ef9a5a62f649af67a44bca15215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ae79bfb41c2531efd85bb7322fb822') in 0.045541 seconds 
-  Import took 0.057770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Easy Weapons/Extra/Bomb_Launcher/Textures/bomb_launcher_diffuse+spec.png
-  artifactKey: Guid(a17439805b0f5b8409b4d40ed623d876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Bomb_Launcher/Textures/bomb_launcher_diffuse+spec.png using Guid(a17439805b0f5b8409b4d40ed623d876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc662f94562000c172b9620e63fb9a54') in 0.037850 seconds 
-  Import took 0.046809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/black_grid.png
-  artifactKey: Guid(7d2d116a74f374b44b859ae78187f8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/black_grid.png using Guid(7d2d116a74f374b44b859ae78187f8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c54fce2c541404ffade2110fb0729d') in 0.033738 seconds 
-  Import took 0.044200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.967661 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_1.png
-  artifactKey: Guid(f377fd6f468ec264c907087900493fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_1.png using Guid(f377fd6f468ec264c907087900493fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada2e73901c5cdbf766641f224207c50') in 0.018985 seconds 
-  Import took 0.028330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_1.png
-  artifactKey: Guid(7940009c31d71c24eb9b50ee3115d715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_1.png using Guid(7940009c31d71c24eb9b50ee3115d715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6139771d979cc1222fbb15a135791de') in 0.026771 seconds 
-  Import took 0.035638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026069 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_1_normal.png
-  artifactKey: Guid(80d0493c30f7c4440819e88a07467dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_1_normal.png using Guid(80d0493c30f7c4440819e88a07467dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1142fc59e39c2b9a2c5dd4ddc6eacf6') in 0.032355 seconds 
-  Import took 0.043357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001655 seconds.
-  path: Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_2.png
-  artifactKey: Guid(4dd7f49c11396d743b5d7737fae22c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_2.png using Guid(4dd7f49c11396d743b5d7737fae22c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a35cc4c9e18d81957606b4688521c1') in 0.020762 seconds 
-  Import took 0.029112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.155419 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_2.png
-  artifactKey: Guid(682f970a81fac654c9d5e106ccf50bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_2.png using Guid(682f970a81fac654c9d5e106ccf50bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a33fe57463efaefa6d8414bdf8fc7e5') in 0.017619 seconds 
-  Import took 0.026146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_2_normal.png
-  artifactKey: Guid(efdf61c199785984584aade6225d7512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_2_normal.png using Guid(efdf61c199785984584aade6225d7512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dea62c321e751b27c8dc7849281a60') in 0.020190 seconds 
-  Import took 0.027485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038547 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_3.png
-  artifactKey: Guid(cd10dbd6df5fcc748bdc3db996401f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_3.png using Guid(cd10dbd6df5fcc748bdc3db996401f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa90b2c7e9f931b95f24ac941853338f') in 0.019454 seconds 
-  Import took 0.031243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_3.png
-  artifactKey: Guid(2703b9dad9a106947ba728b17d53203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_3.png using Guid(2703b9dad9a106947ba728b17d53203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053bcf92adc51c21b15052c1b506406b') in 0.026540 seconds 
-  Import took 0.040348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_4.png
-  artifactKey: Guid(7758cd31f6491a3448e60035e393fa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_4.png using Guid(7758cd31f6491a3448e60035e393fa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178caf82c021cb54bc5c813936e7d4cb') in 0.021604 seconds 
-  Import took 0.030863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_3_normal.png
-  artifactKey: Guid(0a35869cccedded42b3defbc6a761612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_3_normal.png using Guid(0a35869cccedded42b3defbc6a761612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c196ac3ec4c0fadf3ce89b9db5197a7e') in 0.023684 seconds 
-  Import took 0.032830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.403139 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_4.png
-  artifactKey: Guid(4e19760cfa80d0f4fa66dcdc9553e49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_4.png using Guid(4e19760cfa80d0f4fa66dcdc9553e49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7244bbd17c11e9dfa75f28c1e4db3817') in 0.021013 seconds 
-  Import took 0.029363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_4_normal.png
-  artifactKey: Guid(342357365a8392e4f83cc679465bc9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_4_normal.png using Guid(342357365a8392e4f83cc679465bc9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ea236f586a801f4c8798bb4d7090ae') in 0.019296 seconds 
-  Import took 0.027901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_5.png
-  artifactKey: Guid(c36be5977edb47f479e048adbe9af8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_5.png using Guid(c36be5977edb47f479e048adbe9af8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2100a632653d94d567e16f2a5e2db51') in 0.032354 seconds 
-  Import took 0.042929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_5.png
-  artifactKey: Guid(c4887d3512418cc47973ded36f836ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_5.png using Guid(c4887d3512418cc47973ded36f836ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2857f395ac07baccc9b26f6b6259796f') in 0.023585 seconds 
-  Import took 0.033906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_6.png
-  artifactKey: Guid(f17dd123c45dd8b4eadd0d36c697422b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_6.png using Guid(f17dd123c45dd8b4eadd0d36c697422b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a4e2f55cd07e06878b44269243d678') in 0.020121 seconds 
-  Import took 0.030713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_5_normal.png
-  artifactKey: Guid(9fbb79dcf072f524db850f257385c6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_5_normal.png using Guid(9fbb79dcf072f524db850f257385c6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b318853f6727fe44075b7987fec0d98') in 0.020976 seconds 
-  Import took 0.029609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_6.png
-  artifactKey: Guid(63649814219488649b764ab090c07ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_6.png using Guid(63649814219488649b764ab090c07ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5f9643d72c7a40cb60c7f8373d8cf0') in 0.018433 seconds 
-  Import took 0.029093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_6_normal.png
-  artifactKey: Guid(3cf8a41839acb964eb8bdbae26eea483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_6_normal.png using Guid(3cf8a41839acb964eb8bdbae26eea483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676a3cdbfce5f9e8d452682bbef4fd2d') in 0.031242 seconds 
-  Import took 0.044399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.343728 seconds.
-  path: Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_7.png
-  artifactKey: Guid(75247f585be7ffd45b219d86359eae23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Bullet Holes/bullet_hole_7.png using Guid(75247f585be7ffd45b219d86359eae23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb4f2397e2d4dd7c85b703701b6be31') in 0.020708 seconds 
-  Import took 0.033585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_7.png
-  artifactKey: Guid(03793245d7ef9fc43a0ef1dff07b1fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_7.png using Guid(03793245d7ef9fc43a0ef1dff07b1fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b4fecf80f128c8d005fd548c74d8fd') in 0.017270 seconds 
-  Import took 0.027147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_8.png
-  artifactKey: Guid(00450144c2cda9741a8652987608507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_8.png using Guid(00450144c2cda9741a8652987608507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8473e8c6e82f53f90d2824b1f39dbdd') in 0.153321 seconds 
-  Import took 0.168835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000616 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_7_normal.png
-  artifactKey: Guid(3507a9e0cbfa7084980b659a3b5565f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_7_normal.png using Guid(3507a9e0cbfa7084980b659a3b5565f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ff7c7eae0a061171f540cca97bc3d9') in 0.127590 seconds 
-  Import took 0.150610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000637 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_9.png
-  artifactKey: Guid(cc491cf3cf055ac4685cc34b56c2e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_9.png using Guid(cc491cf3cf055ac4685cc34b56c2e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc21d64b7e1ec8562390a51c2c025a23') in 0.021143 seconds 
-  Import took 0.032175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_8_normal.png
-  artifactKey: Guid(8a1cc67ca1c67a24aa94a1733186c2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_8_normal.png using Guid(8a1cc67ca1c67a24aa94a1733186c2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85eab034cb6db2f507d84b5039c840b4') in 0.068177 seconds 
-  Import took 0.078248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000858 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_10.png
-  artifactKey: Guid(9241f31861e1296489bf2f8c1612d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_10.png using Guid(9241f31861e1296489bf2f8c1612d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300bb97495f64f24c61a2df532a01298') in 0.022350 seconds 
-  Import took 0.034618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_9_normal.png
-  artifactKey: Guid(673a259caedcff84bb1d379d909fe2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_9_normal.png using Guid(673a259caedcff84bb1d379d909fe2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb2310c7ae312f226ce9b71922b635e') in 0.056851 seconds 
-  Import took 0.071160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.331170 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_10_normal.png
-  artifactKey: Guid(4e56e5bccfa230a4496ce292a1a4b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_10_normal.png using Guid(4e56e5bccfa230a4496ce292a1a4b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980ab567a06369da55a4f4c882d3f65a') in 0.027838 seconds 
-  Import took 0.040637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_11.png
-  artifactKey: Guid(fdb93c94b8cdb034084bf2bfdb2f46c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_11.png using Guid(fdb93c94b8cdb034084bf2bfdb2f46c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb36d1bb64adf651dfe5a46883fd65f6') in 0.023391 seconds 
-  Import took 0.032992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_12.png
-  artifactKey: Guid(9ab0d0ba0b084314cb6a9805f4bcc4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_12.png using Guid(9ab0d0ba0b084314cb6a9805f4bcc4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79e3e540a9591ecf8fec3f6e072608a') in 0.136311 seconds 
-  Import took 0.150702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000927 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_11_normal.png
-  artifactKey: Guid(64278bfe0f9a2f744a3d138903e2c552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_11_normal.png using Guid(64278bfe0f9a2f744a3d138903e2c552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731e7223b0aa66fb69db0f95016259cd') in 0.032601 seconds 
-  Import took 0.047450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034311 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_12_normal.png
-  artifactKey: Guid(bc3d3f81b12178c4b8892c12b35093e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_12_normal.png using Guid(bc3d3f81b12178c4b8892c12b35093e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7739f74bdde371218f0920fe128bd68') in 0.033877 seconds 
-  Import took 0.051247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_13.png
-  artifactKey: Guid(5e990e20712cae44ca6c757faa0b8f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_13.png using Guid(5e990e20712cae44ca6c757faa0b8f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177c181ba04efe8ede8157223ad038f1') in 0.048541 seconds 
-  Import took 0.061827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.234171 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_13_normal.png
-  artifactKey: Guid(2b6e5d97b4995744c9732a66d78d81a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_13_normal.png using Guid(2b6e5d97b4995744c9732a66d78d81a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33e6a824f7660002a4ff845b5b75d8d') in 0.020920 seconds 
-  Import took 0.034500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_14.png
-  artifactKey: Guid(5253af1a7e32b4645be1c5d14bbae5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_14.png using Guid(5253af1a7e32b4645be1c5d14bbae5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c331d931ee8d3fa6dcd6795a59945bdc') in 0.057876 seconds 
-  Import took 0.068540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005434 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_14_normal.png
-  artifactKey: Guid(1043131e5a8277d4592241ac189e4f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_14_normal.png using Guid(1043131e5a8277d4592241ac189e4f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd94e839cd6134aeb0a600cfb05b02e') in 0.021107 seconds 
-  Import took 0.033080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000568 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_15.png
-  artifactKey: Guid(ef55212ef535ae34397419581a2209fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_15.png using Guid(ef55212ef535ae34397419581a2209fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2739f563c16abf815a3693d1c7bf73') in 0.031889 seconds 
-  Import took 0.041286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001000 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_15_normal.png
-  artifactKey: Guid(a4c55bec42bb19940b6566ac621450ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_15_normal.png using Guid(a4c55bec42bb19940b6566ac621450ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7d3ca38763ba731590ea0b515f82a7') in 0.029440 seconds 
-  Import took 0.043290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_16_normal.png
-  artifactKey: Guid(cc41e186fbf3ad4478c819ad441b0815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_16_normal.png using Guid(cc41e186fbf3ad4478c819ad441b0815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413390697259d70e79a4616a244134b0') in 0.040741 seconds 
-  Import took 0.050779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_16.png
-  artifactKey: Guid(0d70fd4dd580a3548917513f1aa1f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Prefabs/Bullet Hole Decals/Textures/bullet_hole_16.png using Guid(0d70fd4dd580a3548917513f1aa1f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01e9659996d688e6ce9eceb7d087f3a') in 0.030924 seconds 
-  Import took 0.047524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000528 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/concrete.png
-  artifactKey: Guid(189e382dfc2ad104e8cf5ca8e4eb2e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/concrete.png using Guid(189e382dfc2ad104e8cf5ca8e4eb2e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7bb6cf25ecb96f95a90b78adf2b44c') in 0.037588 seconds 
-  Import took 0.047751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055277 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
-  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2df5334832af02b73b66be4886d43d') in 0.016684 seconds 
-  Import took 0.025602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9ce07e7d1e723e3086a947943b36dc') in 0.018599 seconds 
-  Import took 0.025250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_1_diffuse.tif
-  artifactKey: Guid(f974c4ce4ffe40f4fbeced953b355683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_1_diffuse.tif using Guid(f974c4ce4ffe40f4fbeced953b355683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373fbe857246912c8dca9030aedff517') in 0.039437 seconds 
-  Import took 0.051560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_1_AO.tif
-  artifactKey: Guid(2306257b8cd70e94782fdab844155c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_1_AO.tif using Guid(2306257b8cd70e94782fdab844155c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd31acb4dcbd32e28ef90ee88b7e807') in 0.041216 seconds 
-  Import took 0.053994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_1_metal.tif
-  artifactKey: Guid(39963767c6c71a54cbd14064743ccd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_1_metal.tif using Guid(39963767c6c71a54cbd14064743ccd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2799995513562ccf0c5dc61ffe0131') in 0.038640 seconds 
-  Import took 0.058567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_1_normal.tif
-  artifactKey: Guid(150d1e5712019c74c9803e21e9f84e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_1_normal.tif using Guid(150d1e5712019c74c9803e21e9f84e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9825c42695bcb90c7a860de150228eb2') in 0.039741 seconds 
-  Import took 0.055468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.971424 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_2_AO.tif
-  artifactKey: Guid(ed78c0d10a9dff148a83b786e0215f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_2_AO.tif using Guid(ed78c0d10a9dff148a83b786e0215f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb010935e58ab59e74a6e3d5b4ff669') in 0.039007 seconds 
-  Import took 0.047489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_2_normal.tif
-  artifactKey: Guid(60083209062188a4a9a0de6356d349cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_2_normal.tif using Guid(60083209062188a4a9a0de6356d349cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caeee2f7587aec055350994e9779a400') in 0.068198 seconds 
-  Import took 0.081824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_2_diffuse.tif
-  artifactKey: Guid(e27ff64ca25fb524da4de93797938ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_2_diffuse.tif using Guid(e27ff64ca25fb524da4de93797938ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afe4063d8735959fc01b2614745d30a') in 0.049766 seconds 
-  Import took 0.057553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/detail_scratches.tif
-  artifactKey: Guid(8474f42caeba96e4db4817b476ba910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/detail_scratches.tif using Guid(8474f42caeba96e4db4817b476ba910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6be114908a232d26318458a5bf6fe2') in 0.040453 seconds 
-  Import took 0.048464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/detail_scratches_normal.tif
-  artifactKey: Guid(eb201aa8682a5cf4b9fb49d6417fde3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/detail_scratches_normal.tif using Guid(eb201aa8682a5cf4b9fb49d6417fde3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecc1749da5b18ec4c2a060144d3a811') in 0.035987 seconds 
-  Import took 0.044195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox/down.tif
-  artifactKey: Guid(75bbbfc452057104f962eeeb5a343e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox/down.tif using Guid(75bbbfc452057104f962eeeb5a343e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27c0ac508633a8376f6a784d1a2aa9d') in 0.027568 seconds 
-  Import took 0.042064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
-  artifactKey: Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif using Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841031eb84738f3d2399b754d3f20b6c') in 0.037852 seconds 
-  Import took 0.046972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Easy Weapons/Textures/Crosshairs/Extra/crosshairs_1.png
-  artifactKey: Guid(969cf3606f53c1346944828bdb20cfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Crosshairs/Extra/crosshairs_1.png using Guid(969cf3606f53c1346944828bdb20cfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a03751cd5fb1498468021de526e9b3') in 0.024152 seconds 
-  Import took 0.034137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
-  artifactKey: Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif using Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ef8c305f084f13828bb875430fcdc0') in 0.021120 seconds 
-  Import took 0.029851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Easy Weapons/Textures/Crosshairs/Extra/crosshair_3.png
-  artifactKey: Guid(710b5ca03b4c46747b647fa57e7d3fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Crosshairs/Extra/crosshair_3.png using Guid(710b5ca03b4c46747b647fa57e7d3fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6eeb5647d028e819881af6571c255ed') in 0.026416 seconds 
-  Import took 0.041330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_2_metal.tif
-  artifactKey: Guid(b025bab3b6806704893128c967e8063b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Textures/container_2_metal.tif using Guid(b025bab3b6806704893128c967e8063b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca53549d6f437fdf0e04509f615c4493') in 0.040988 seconds 
-  Import took 0.052466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/Easy Weapons/Textures/Crosshairs/Extra/crosshair_2.png
-  artifactKey: Guid(4e99d45e1a5f2fa40aed52039186f475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Crosshairs/Extra/crosshair_2.png using Guid(4e99d45e1a5f2fa40aed52039186f475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa3698b7d0d347a8804200593b7243f') in 0.016293 seconds 
-  Import took 0.023870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.151771 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
-  artifactKey: Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif using Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1dd7fa1b444cc355ca249cd516efda') in 0.019231 seconds 
-  Import took 0.028921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
-  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c8553e6acc846015867dea377779e8') in 0.018559 seconds 
-  Import took 0.028335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040453 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee321dc732d23806ef145e77643e0ab') in 0.016862 seconds 
-  Import took 0.030165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
-  artifactKey: Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif using Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbaf1abf31f48da99dc448ac514d9f7') in 0.018028 seconds 
-  Import took 0.031906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.047861 seconds.
-  path: Assets/Easy Weapons/Extra/Energy_Gun_Model/Textures/energy_gun_diffuse+specular.png
-  artifactKey: Guid(4e6ac835fed29494aaebb917197de5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Energy_Gun_Model/Textures/energy_gun_diffuse+specular.png using Guid(4e6ac835fed29494aaebb917197de5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41dc0d94c604e4b6f99c80731976666') in 0.016292 seconds 
-  Import took 0.024964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox/front.tif
-  artifactKey: Guid(92d7baebd31a4a94abeb3788287a552f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox/front.tif using Guid(92d7baebd31a4a94abeb3788287a552f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e608c34ce335107f2fb388e26b34c71') in 0.037323 seconds 
-  Import took 0.044167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png
-  artifactKey: Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png using Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397aeea3e865a76b8ec7cfbbf3d0150e') in 0.027114 seconds 
-  Import took 0.042662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000673 seconds.
-  path: Assets/Easy Weapons/Extra/Energy_Gun_Model/Textures/energy_gun_normal.png
-  artifactKey: Guid(b9266229ea70d764b9b5ffc10f192ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Energy_Gun_Model/Textures/energy_gun_normal.png using Guid(b9266229ea70d764b9b5ffc10f192ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6db60bf17dfbda293684cb1de19cc6e') in 0.038483 seconds 
-  Import took 0.048555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.593408 seconds.
-  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png
-  artifactKey: Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png using Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b77f1d61b4051d6959bc7e6f9e442') in 0.022167 seconds 
-  Import took 0.034620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000730 seconds.
-  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
-  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49c29fe3385680971f25ee835094c19') in 0.141607 seconds 
-  Import took 0.156404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062338 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif using Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4d9753a56ba55628108e5b7a69ee53') in 0.018662 seconds 
-  Import took 0.027477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Easy Weapons/Extra/Laser_Gun_Model/Textures/laser_gun_diffuse+specular.png
-  artifactKey: Guid(29553c959bc387f4ea59a0fa5418bc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Laser_Gun_Model/Textures/laser_gun_diffuse+specular.png using Guid(29553c959bc387f4ea59a0fa5418bc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb18db718d558cd66e5171eceec615f') in 0.033655 seconds 
-  Import took 0.043502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Easy Weapons/Textures/Lasers/laser_3.png
-  artifactKey: Guid(cd088cb4c25b5324ab1a3cf8c75f5226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Lasers/laser_3.png using Guid(cd088cb4c25b5324ab1a3cf8c75f5226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570a2dd1898b75b6a0d8b3fca81d10d6') in 0.044461 seconds 
-  Import took 0.051712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Easy Weapons/Textures/Particles/laser_1.psd
-  artifactKey: Guid(533b0729ea31b0b4085fb7020c78648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Particles/laser_1.psd using Guid(533b0729ea31b0b4085fb7020c78648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12eff39e2bd2cf367e6c53b22dafd7fa') in 0.045314 seconds 
-  Import took 0.057601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Easy Weapons/Demo/newdemo/Lightmap-0_comp_light.exr
-  artifactKey: Guid(a1aa3d07f0e355a4791a10ee726611df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/newdemo/Lightmap-0_comp_light.exr using Guid(a1aa3d07f0e355a4791a10ee726611df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249ea965cf7f80ce61600d0d3d2773aa') in 0.045823 seconds 
-  Import took 0.057458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Easy Weapons/Textures/Lasers/laser_1.png
-  artifactKey: Guid(c04cac16d0cb91342b61bdee256aa67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Lasers/laser_1.png using Guid(c04cac16d0cb91342b61bdee256aa67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7f6452041703de99d405c2062a0b3f') in 0.038546 seconds 
-  Import took 0.046459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Easy Weapons/Extra/Laser_Gun_Model/Textures/laser_gun_normal.png
-  artifactKey: Guid(05eb5602479c0c54089736ec013825f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Laser_Gun_Model/Textures/laser_gun_normal.png using Guid(05eb5602479c0c54089736ec013825f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29359244b4fe7031d1289bfbdec7badd') in 0.023374 seconds 
-  Import took 0.032332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Easy Weapons/Extra/M4_Model/Source/M4_Normal.png
-  artifactKey: Guid(223a6b71d4c559a4fa86e1f6a34ec95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/M4_Model/Source/M4_Normal.png using Guid(223a6b71d4c559a4fa86e1f6a34ec95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc40ba28c2087af0fe9234911a1fbf81') in 0.018918 seconds 
-  Import took 0.032390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Easy Weapons/Extra/M4_Model/Source/M4_Diffuse+Specular.png
-  artifactKey: Guid(4d747564a894fdb48958d86e86150aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/M4_Model/Source/M4_Diffuse+Specular.png using Guid(4d747564a894fdb48958d86e86150aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d13055856f2138ddeff914ce85d071c') in 0.025141 seconds 
-  Import took 0.037591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/Easy Weapons/Textures/Lasers/laser_2.png
-  artifactKey: Guid(70dd42e9e79b6bc4ea1a8c3d34538839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Lasers/laser_2.png using Guid(70dd42e9e79b6bc4ea1a8c3d34538839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5b1315fa87b015e83c889d34b65e0a') in 0.037674 seconds 
-  Import took 0.047739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
-  artifactKey: Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif using Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04086eba2bc7121843a34fefe6242693') in 0.034874 seconds 
-  Import took 0.047069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000658 seconds.
-  path: Assets/Easy Weapons/Extra/M4_Model/Source/M4_Diffuse.png
-  artifactKey: Guid(df31b13e47cc19d41a4c135e7a988342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/M4_Model/Source/M4_Diffuse.png using Guid(df31b13e47cc19d41a4c135e7a988342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0001f18ad245cc3ef5dd87292b998d') in 0.028935 seconds 
-  Import took 0.040632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox/left.tif
-  artifactKey: Guid(fe4d7ea88c537e640b1941545123a9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox/left.tif using Guid(fe4d7ea88c537e640b1941545123a9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7507c656726355ab530767eb3c0363') in 0.018826 seconds 
-  Import took 0.026421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.250229 seconds.
-  path: Assets/Easy Weapons/Extra/M79_Grenade_Launcher_Model/Textures/M79_diffuse+specular.png
-  artifactKey: Guid(f54be9bba25c22648b683719f001b5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/M79_Grenade_Launcher_Model/Textures/M79_diffuse+specular.png using Guid(f54be9bba25c22648b683719f001b5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f303dc7b75df549b0f1410c22a345c') in 0.026493 seconds 
-  Import took 0.040669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Easy Weapons/Extra/M79_Grenade_Launcher_Model/Textures/M79_normal.png
-  artifactKey: Guid(2405cad8e4db78e4a9ad640f0ecf1e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/M79_Grenade_Launcher_Model/Textures/M79_normal.png using Guid(2405cad8e4db78e4a9ad640f0ecf1e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84629dc403377153b6d7fa2aa7da36dd') in 0.035356 seconds 
-  Import took 0.043469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif
-  artifactKey: Guid(7140a9bc83a12ea49a081dda89216fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif using Guid(7140a9bc83a12ea49a081dda89216fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2aaf020817b63b12ffad16bd1c130c') in 0.146806 seconds 
-  Import took 0.157568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
-  artifactKey: Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif using Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d02a1f23652514aea007608995a272') in 0.021620 seconds 
-  Import took 0.034469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(22638a9216f1ebf4cb43273a00879f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif using Guid(22638a9216f1ebf4cb43273a00879f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79be48cd2eef01e91511a123db52869') in 0.019237 seconds 
-  Import took 0.029528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif
-  artifactKey: Guid(fcce267dfc966b6408dc2ebe0cfb60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif using Guid(fcce267dfc966b6408dc2ebe0cfb60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841774827538f8de3948f59ebb04aee5') in 0.033133 seconds 
-  Import took 0.043920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
-  artifactKey: Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif using Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2db1796ea3f8e405c3daad3daf5acc') in 0.021274 seconds 
-  Import took 0.033575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif
-  artifactKey: Guid(5d25a5cd577a4c54e94fdf9cc6f1a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif using Guid(5d25a5cd577a4c54e94fdf9cc6f1a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33edac343b44a75e0f1d737c73023755') in 0.022548 seconds 
-  Import took 0.036998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif
-  artifactKey: Guid(ac80c335ebd6dde4fa54a82050064545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif using Guid(ac80c335ebd6dde4fa54a82050064545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937ad01615669ba10f4051a74b307b7b') in 0.028104 seconds 
-  Import took 0.039296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif
-  artifactKey: Guid(2de0d72a6700bd94ea57111b29e246fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif using Guid(2de0d72a6700bd94ea57111b29e246fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2d855a50787f783b071e865a88dad6') in 0.021998 seconds 
-  Import took 0.031449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
-  artifactKey: Guid(77583f99dea53b641804bb357092ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif using Guid(77583f99dea53b641804bb357092ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7258ebcc78ebc48cb9b8f280833e335c') in 0.019678 seconds 
-  Import took 0.028827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif
-  artifactKey: Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif using Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb4b8195c28201af4f962cea759e77a') in 0.017345 seconds 
-  Import took 0.029549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000947 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif
-  artifactKey: Guid(5e98de278b2ccc14f89b76b85596a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif using Guid(5e98de278b2ccc14f89b76b85596a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e804f44545ba90ae35875de6efbaa120') in 0.018354 seconds 
-  Import took 0.029229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif
-  artifactKey: Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif using Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd700b31040a3df51f39270bd3ed59a21') in 0.015700 seconds 
-  Import took 0.026135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif
-  artifactKey: Guid(1f89fed00b6bc904c861ab847a811cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif using Guid(1f89fed00b6bc904c861ab847a811cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884b617f9415665185be3e0e89b7ca49') in 0.021239 seconds 
-  Import took 0.031481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Easy Weapons/Extra/Pistol_Model/Textures/pistol_normal.png
-  artifactKey: Guid(da20ecf9c2a89904dac87aa6d8e408d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Pistol_Model/Textures/pistol_normal.png using Guid(da20ecf9c2a89904dac87aa6d8e408d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87167316f3c9931c74308ab316e59e2c') in 0.026929 seconds 
-  Import took 0.033604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif
-  artifactKey: Guid(e109905c411b0f84e82eaaf2705ece30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif using Guid(e109905c411b0f84e82eaaf2705ece30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff16655f35612ebf33c81c63034a529f') in 0.020535 seconds 
-  Import took 0.030913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(888916a5e87c05948b1a97b3c0d42556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif using Guid(888916a5e87c05948b1a97b3c0d42556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251046b9c5e7f4bc88f0bb77605eebc2') in 0.037090 seconds 
-  Import took 0.047877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif using Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff966f206aac07591f90501bfdaedb0f') in 0.021113 seconds 
-  Import took 0.033911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif
-  artifactKey: Guid(7b82d12aad56cc445b99fd1cf06a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif using Guid(7b82d12aad56cc445b99fd1cf06a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32acf4e6de351ffc127e25e08f0f7ed7') in 0.016826 seconds 
-  Import took 0.026076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif
-  artifactKey: Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif using Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64da908a8818a12db5841fe32ff7b2fa') in 0.029299 seconds 
-  Import took 0.042897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif
-  artifactKey: Guid(c021d051fa0cba84282b4a2577aa85c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif using Guid(c021d051fa0cba84282b4a2577aa85c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe9c4fb30d0c5482af7a7578715858c') in 0.025079 seconds 
-  Import took 0.032361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif
-  artifactKey: Guid(09e745bf0b8ff6a4bb5785d14168289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif using Guid(09e745bf0b8ff6a4bb5785d14168289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774cfa4d32d31b387e1c6d9df73e0cf3') in 0.023760 seconds 
-  Import took 0.033511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif
-  artifactKey: Guid(4675081b0baf66345adc734388155502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif using Guid(4675081b0baf66345adc734388155502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a137f44210a79c87872d5ca48dd4b5d') in 0.029303 seconds 
-  Import took 0.045291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif
-  artifactKey: Guid(ecb23393a0d1b424a82fff68a4c00a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif using Guid(ecb23393a0d1b424a82fff68a4c00a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94180704b61ccf730ab07bb2659e1f7') in 0.017856 seconds 
-  Import took 0.025936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(201c1f77fe872924a86132486bc97e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif using Guid(201c1f77fe872924a86132486bc97e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f68aa401ea3db2ce6addf615884ef4') in 0.018885 seconds 
-  Import took 0.029560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Easy Weapons/Extra/Pistol_Model/Textures/pistol_diffuse+specular.png
-  artifactKey: Guid(aae36ea0a36a919488a4ad3873ca793b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Pistol_Model/Textures/pistol_diffuse+specular.png using Guid(aae36ea0a36a919488a4ad3873ca793b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fd5b68c475fc52f259635438e68aa3') in 0.026921 seconds 
-  Import took 0.035424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(ee7680f1374ab4449b6d5f6b2c2c1936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif using Guid(ee7680f1374ab4449b6d5f6b2c2c1936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40356c7c213ae27addfee29897c03386') in 0.021459 seconds 
-  Import took 0.033925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.302569 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
-  artifactKey: Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif using Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845984a5836d8a08bd06ba481bda1ba3') in 0.022659 seconds 
-  Import took 0.032539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG
-  artifactKey: Guid(44a17a5b205fcd349a24700e6f5615bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG using Guid(44a17a5b205fcd349a24700e6f5615bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1fc65fba5af094b238c48ac583c73c') in 0.178767 seconds 
-  Import took 0.190281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.720179 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-0.exr
-  artifactKey: Guid(b65762d7243eb714e903b585ed68a576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-0.exr using Guid(b65762d7243eb714e903b585ed68a576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd240508fec8ae31ba75bdeead95dfad3') in 0.272784 seconds 
-  Import took 0.287654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-2.exr
-  artifactKey: Guid(7e3f1677bc1aead4fb8791998078dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-2.exr using Guid(7e3f1677bc1aead4fb8791998078dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21429b7384d994d06ac649ba2b804b8') in 0.181798 seconds 
-  Import took 0.194433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000610 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-1.exr
-  artifactKey: Guid(1b8a4de7469ad774c80dd6678d94e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-1.exr using Guid(1b8a4de7469ad774c80dd6678d94e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5719ff1fe28588b0f3402290b724d0ee') in 0.044058 seconds 
-  Import took 0.058640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Easy Weapons/Demo/newdemo/ReflectionProbe-0.exr
-  artifactKey: Guid(b80148f5c4a849f4ab3d926cd4571c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Demo/newdemo/ReflectionProbe-0.exr using Guid(b80148f5c4a849f4ab3d926cd4571c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97e402c419ed50bd8f61d46de6cb8a6') in 0.023199 seconds 
-  Import took 0.032289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox/right.tif
-  artifactKey: Guid(70331e7d0125f82459e559ebd9070759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox/right.tif using Guid(70331e7d0125f82459e559ebd9070759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8adb55efc24ab8fcd5617e1286ee12') in 0.018767 seconds 
-  Import took 0.031918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif
-  artifactKey: Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif using Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92553f188a69f5252805283ebdcc44e7') in 0.027262 seconds 
-  Import took 0.039703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Easy Weapons/Extra/Rocket_Launcher_Model/Textures/rocket_launcher_normal.png
-  artifactKey: Guid(d9bb3fc4e7eea1942b46aa2d0479740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Rocket_Launcher_Model/Textures/rocket_launcher_normal.png using Guid(d9bb3fc4e7eea1942b46aa2d0479740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e22f6a35c0295483b1ebe75a42dbf8') in 0.023059 seconds 
-  Import took 0.031324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Easy Weapons/Extra/Rocket_Launcher_Model/Textures/rocket_launcher_diffuse+specular.png
-  artifactKey: Guid(e66c8d3950c5f4a4bb3c401d9d9c69e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Rocket_Launcher_Model/Textures/rocket_launcher_diffuse+specular.png using Guid(e66c8d3950c5f4a4bb3c401d9d9c69e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f558a9df34641de22ef5c93c2f8f7fba') in 0.020833 seconds 
-  Import took 0.030331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.532781 seconds.
-  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(6f61f8dd4499250438f1aa39448e860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif using Guid(6f61f8dd4499250438f1aa39448e860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9d119696855aa64b198463bf46effb') in 0.021656 seconds 
-  Import took 0.033628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif
-  artifactKey: Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif using Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011d6c732a913ec681544f9002c51bb8') in 0.021704 seconds 
-  Import took 0.030853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Easy Weapons/Extra/Shotgun_Model/Textures/shotgun_diffuse+specular.png
-  artifactKey: Guid(f5c8e2114d47831419ea5acd495617f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Shotgun_Model/Textures/shotgun_diffuse+specular.png using Guid(f5c8e2114d47831419ea5acd495617f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df19ba7ca1533a5f871122b73581c3b0') in 0.151745 seconds 
-  Import took 0.166585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056960 seconds.
-  path: Assets/Easy Weapons/Extra/Shotgun_Model/Textures/shotgun_normal.png
-  artifactKey: Guid(79a430002bf53cc46a7f73a751e153e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Extra/Shotgun_Model/Textures/shotgun_normal.png using Guid(79a430002bf53cc46a7f73a751e153e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9541880b540279f61b6fef6628528bb3') in 0.018899 seconds 
-  Import took 0.030855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/Easy Weapons/Textures/Crosshairs/solid_black.png
-  artifactKey: Guid(65986249dbab2e74e9559cce7daaf456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Crosshairs/solid_black.png using Guid(65986249dbab2e74e9559cce7daaf456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1979f792059d80aa242509d90fa3554c') in 0.031003 seconds 
-  Import took 0.041276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.166658 seconds.
-  path: Assets/Easy Weapons/Textures/Crosshairs/solid_red.png
-  artifactKey: Guid(b4c5e19a5662ed244b54f15320c9fb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Crosshairs/solid_red.png using Guid(b4c5e19a5662ed244b54f15320c9fb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802b918476fe898c36b112c7dd36e049') in 0.018356 seconds 
-  Import took 0.027579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Easy Weapons/Textures/Crosshairs/solid_white.png
-  artifactKey: Guid(fb94e4cada149024181628b0f49b619d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Crosshairs/solid_white.png using Guid(fb94e4cada149024181628b0f49b619d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6d6946db5e64cf7d78a815549eda62') in 0.026675 seconds 
-  Import took 0.036142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.197036 seconds.
-  path: Assets/Easy Weapons/Textures/Particles/spark 1.tif
-  artifactKey: Guid(57e4a46e120f66a4b9b96b302c1ffe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Particles/spark 1.tif using Guid(57e4a46e120f66a4b9b96b302c1ffe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47577bd461df1cc4475e47ef896a0e32') in 0.010693 seconds 
-  Import took 0.020465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Easy Weapons/Textures/Particles/spark 2.tif
-  artifactKey: Guid(9e118cb4acfc7214da3b2715c37bdba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Particles/spark 2.tif using Guid(9e118cb4acfc7214da3b2715c37bdba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efd237c61ead11650ef09cd67a3f0b9') in 0.030123 seconds 
-  Import took 0.038399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.566596 seconds.
-  path: Assets/Easy Weapons/Textures/Particles/SteamBlur 1.png
-  artifactKey: Guid(ec796d2a0aadbe546ae6c4637f879d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Particles/SteamBlur 1.png using Guid(ec796d2a0aadbe546ae6c4637f879d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0e724668294758c19ab488a20972bb') in 0.021465 seconds 
-  Import took 0.030803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003197 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_back 1.tif
-  artifactKey: Guid(3421577112f2bec4bb93acd78e1ef9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_back 1.tif using Guid(3421577112f2bec4bb93acd78e1ef9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95641c25df9ea9947101f4d70d5ae535') in 0.043897 seconds 
-  Import took 0.051205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_down 1.tif
-  artifactKey: Guid(a32bea600a5f2154a86c177eda98aa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_down 1.tif using Guid(a32bea600a5f2154a86c177eda98aa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab099de01d5417cea15c7eaa8a500d09') in 0.118431 seconds 
-  Import took 0.132611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.778380 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_front 1.tif
-  artifactKey: Guid(4075048fa3a7ebc4492a3278d2172fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_front 1.tif using Guid(4075048fa3a7ebc4492a3278d2172fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbd4f03580d0c695a03d07a36926296') in 0.021392 seconds 
-  Import took 0.029020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_left 1.tif
-  artifactKey: Guid(e107ba44b26a1114bbd275f5917ba0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_left 1.tif using Guid(e107ba44b26a1114bbd275f5917ba0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891be4ce85be92cb03a354e4e42fadb5') in 0.037276 seconds 
-  Import took 0.048179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.289977 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_right 1.tif
-  artifactKey: Guid(9c42ac893ec2e234895074ab81b79ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_right 1.tif using Guid(9c42ac893ec2e234895074ab81b79ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fc67fe72abee8362453b6c814a431d') in 0.018725 seconds 
-  Import took 0.032634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_up 1.tif
-  artifactKey: Guid(f7aac24bdfeb5984ca24170cd3cfcae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox_day/Sunny2_up 1.tif using Guid(f7aac24bdfeb5984ca24170cd3cfcae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24abfa826b0fd95fe8fb2ff838e5648e') in 0.111598 seconds 
-  Import took 0.126911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Easy Weapons/Textures/Particles/total_red.psd
-  artifactKey: Guid(8227f4cbeafa8e041a28193639538b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Particles/total_red.psd using Guid(8227f4cbeafa8e041a28193639538b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9c9ba105bfa30eae6ad2987b723432') in 0.021660 seconds 
-  Import took 0.029330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000682 seconds.
-  path: Assets/Easy Weapons/Textures/Particles/total_blue.psd
-  artifactKey: Guid(cbe3fd7d548d99c4fa8d59b1d6aae24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Particles/total_blue.psd using Guid(cbe3fd7d548d99c4fa8d59b1d6aae24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d376164d9e05a151b9b25d5d75dceff') in 0.089940 seconds 
-  Import took 0.101194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011112 seconds.
-  path: Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png
-  artifactKey: Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png using Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdebb9a09220bfe0055fbb6c37f85e54') in 0.085964 seconds 
-  Import took 0.096825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png
-  artifactKey: Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png using Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec1a4dc9baf44ab3bcab55732136428') in 0.041385 seconds 
-  Import took 0.051208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/StarterAssets/Mobile/UI/UI_Circle_Faded.png
-  artifactKey: Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Mobile/UI/UI_Circle_Faded.png using Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19a590d9accea089994b0520b583f94') in 0.122833 seconds 
-  Import took 0.133362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/TutorialInfo/Icons/UniversalIcon.png
-  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1952061675942a7686be3cf33392d7f') in 0.015217 seconds 
-  Import took 0.023885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/wood.png
-  artifactKey: Guid(9dd8f6ceb91b1644ba356deccd9da146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/wood.png using Guid(9dd8f6ceb91b1644ba356deccd9da146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74322c627cc0a0247402d667ed5ece91') in 0.019667 seconds 
-  Import took 0.030759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png
-  artifactKey: Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png using Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96772262fe2907cc2689dc6d96db93a7') in 0.056125 seconds 
-  Import took 0.066694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000580 seconds.
-  path: Assets/Easy Weapons/Textures/Environment/Skybox/up.tif
-  artifactKey: Guid(c31d1ee1d5ffb704c9af8fbded2018b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Weapons/Textures/Environment/Skybox/up.tif using Guid(c31d1ee1d5ffb704c9af8fbded2018b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d7495215dd460d8fcd18fda72e4a16') in 0.016715 seconds 
-  Import took 0.024528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001276 seconds.
-  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png
-  artifactKey: Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png using Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2fbf28f146fb1da816d93c68ff5918') in 0.060950 seconds 
-  Import took 0.074375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png
-  artifactKey: Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png using Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816b37cf18fc7b7d986ec1b0a79e7c1d') in 0.045336 seconds 
-  Import took 0.053335 seconds .
+  Time since last request: 0.010889 seconds.
+  path: Assets/Scripts/ItemPicker.cs
+  artifactKey: Guid(5d1425d1689d5ab438d83d878e7f1468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ItemPicker.cs using Guid(5d1425d1689d5ab438d83d878e7f1468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47c47fe52cae7da3d8444e9740d1625') in 0.001969 seconds 
+  Import took 0.006094 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.027779 seconds.
+Registered in 0.003090 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.176 seconds
+- Completed reload, in  0.851 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3179ms)
-		BeginReloadAssembly (746ms)
+	ReloadAssembly (851ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (27ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (479ms)
-		EndReloadAssembly (2334ms)
-			LoadAssemblies (344ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (762ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (805ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (233ms)
-				ProcessInitializeOnLoadAttributes (516ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.7 MB.
-System memory in use after: 139.9 MB.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.1 MB.
+System memory in use after: 151.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3716.
-Total: 6.802100 ms (FindLiveObjects: 0.538600 ms CreateObjectMapping: 0.253500 ms MarkObjects: 5.964400 ms  DeleteObjects: 0.042700 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3747.
+Total: 2.925400 ms (FindLiveObjects: 0.257800 ms CreateObjectMapping: 0.132200 ms MarkObjects: 2.521100 ms  DeleteObjects: 0.013600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1769,10 +807,364 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.041826 seconds.
+  Time since last request: 71.821643 seconds.
+  path: Assets/Scripts/InventorySlot.cs
+  artifactKey: Guid(0ca32a4ef6ca1b445a35d00d9631c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InventorySlot.cs using Guid(0ca32a4ef6ca1b445a35d00d9631c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429859020d0d3184e30fab440bb20564') in 0.006326 seconds 
+  Import took 0.011933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 603.233510 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(328ea048bd7c33b41a1592f956b29e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(328ea048bd7c33b41a1592f956b29e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3842083bf7387cbd3c3076bdfb837f16') in 0.006282 seconds 
+  Import took 0.011365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.217019 seconds.
+  path: Assets/Scripts/InventoryDisplay.cs
+  artifactKey: Guid(942bfecef5c447a438aba09e9110196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InventoryDisplay.cs using Guid(942bfecef5c447a438aba09e9110196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fb663eb2c447aa73b268b6cfde92a2') in 0.007348 seconds 
+  Import took 0.012178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038108 seconds.
+  path: Assets/Scripts/InventorySlot.cs
+  artifactKey: Guid(0ca32a4ef6ca1b445a35d00d9631c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InventorySlot.cs using Guid(0ca32a4ef6ca1b445a35d00d9631c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966bdd2c681125963b7501b0202a32e7') in 0.002056 seconds 
+  Import took 0.006594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.484375 seconds.
+  path: Assets/Scripts/Inventory.cs
+  artifactKey: Guid(b4b25326853caf24e9eb49f38fb50a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory.cs using Guid(b4b25326853caf24e9eb49f38fb50a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efdc650b6ddfe2230e202942dbb7ef9') in 0.003284 seconds 
+  Import took 0.009178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.709236 seconds.
+  path: Assets/Scripts/ItemClasses.cs
+  artifactKey: Guid(9e3b89265264dcf40ac5fc480ec5bdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ItemClasses.cs using Guid(9e3b89265264dcf40ac5fc480ec5bdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4613c0761790bf5f3e5aeaa2f01ff88e') in 0.005822 seconds 
+  Import took 0.010083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.585391 seconds.
+  path: Assets/Scripts/SerializedInventory.cs
+  artifactKey: Guid(c29d5bbe5f3299a4983a6d606374703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SerializedInventory.cs using Guid(c29d5bbe5f3299a4983a6d606374703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132c4398382d2b8a0dbb6c95bfbb4861') in 0.002098 seconds 
+  Import took 0.006324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.326190 seconds.
+  path: Assets/Scripts/InventoryItem.cs
+  artifactKey: Guid(5969bfc29290f974ea9859d824370354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InventoryItem.cs using Guid(5969bfc29290f974ea9859d824370354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34cca12315e50778a4ac21197ebfee9') in 0.002835 seconds 
+  Import took 0.008691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.082406 seconds.
+  path: Assets/Scripts/InventorySlot.cs
+  artifactKey: Guid(0ca32a4ef6ca1b445a35d00d9631c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InventorySlot.cs using Guid(0ca32a4ef6ca1b445a35d00d9631c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9e2030e71a88a75f9ba19207bf6daa') in 0.002056 seconds 
+  Import took 0.006252 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Domain Reload Profiling:
+	ReloadAssembly (836ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (696ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.0 MB.
+System memory in use after: 151.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3745.
+Total: 3.101700 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.159200 ms MarkObjects: 2.620200 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004649 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Domain Reload Profiling:
+	ReloadAssembly (874ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (731ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.2 MB.
+System memory in use after: 157.1 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3836.
+Total: 4.088700 ms (FindLiveObjects: 0.305600 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.665300 ms  DeleteObjects: 0.966500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2393.022968 seconds.
   path: Assets/NewLayer.terrainlayer
   artifactKey: Guid(ecbab12173333814f92abf28d47a9cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewLayer.terrainlayer using Guid(ecbab12173333814f92abf28d47a9cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2172e706789d2a76ef3074afc227029d') in 0.100462 seconds 
-  Import took 0.111249 seconds .
+Start importing Assets/NewLayer.terrainlayer using Guid(ecbab12173333814f92abf28d47a9cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f81c2455ba229b75c7d948c8c513d30') in 0.106989 seconds 
+  Import took 0.112461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Easy Weapons/Demo/Freight Yard/Source/Terrain Textures/sand_seamless_1.tif
+  artifactKey: Guid(2c8e022b8b7b39b428e4de363f20531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Weapons/Demo/Freight Yard/Source/Terrain Textures/sand_seamless_1.tif using Guid(2c8e022b8b7b39b428e4de363f20531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3988811a0c4ec318cf7bc628a31b3add') in 0.033909 seconds 
+  Import took 0.038797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.305783 seconds.
+  path: Assets/_/Base/BaseScripts/CharacterAimHandler.cs
+  artifactKey: Guid(1ec0bd1be881665458d304a087f60127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/CharacterAimHandler.cs using Guid(1ec0bd1be881665458d304a087f60127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0887f525710011924dfccd25d613a96') in 0.007747 seconds 
+  Import took 0.012295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.639824 seconds.
+  path: Assets/_/Base/BaseScripts/CharacterPositionMovementHandler.cs
+  artifactKey: Guid(271714f20054cb040a11e047cf140534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/CharacterPositionMovementHandler.cs using Guid(271714f20054cb040a11e047cf140534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc362886e4e3711d85b5c0eaede5f2e') in 0.009266 seconds 
+  Import took 0.015232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.918891 seconds.
+  path: Assets/_/Base/BaseScripts/CharacterSwordHandler.cs
+  artifactKey: Guid(ebd444d2909ec6340aa3148b7d086537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/CharacterSwordHandler.cs using Guid(ebd444d2909ec6340aa3148b7d086537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e1b589619685c813d7c2cc3963ed91') in 0.007808 seconds 
+  Import took 0.012077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.099754 seconds.
+  path: Assets/_/Base/BaseScripts/CharacterWaypointsHandler.cs
+  artifactKey: Guid(4567e24f574663b4ba6230a89e43a190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/CharacterWaypointsHandler.cs using Guid(4567e24f574663b4ba6230a89e43a190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ef496fb8e9ad92ca3309a471b4067a') in 0.006356 seconds 
+  Import took 0.010681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.311756 seconds.
+  path: Assets/_/Base/BaseScripts/Enemy.cs
+  artifactKey: Guid(e27075ee0046afe40a0f3e99f510f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/Enemy.cs using Guid(e27075ee0046afe40a0f3e99f510f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbce7cbb789debf96f5c218b6983c109') in 0.006145 seconds 
+  Import took 0.010461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018350 seconds.
+  path: Assets/_/Base/BaseScripts/Enemy_Base.cs
+  artifactKey: Guid(68dfee1c118c53c4c83b446b71cef725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/Enemy_Base.cs using Guid(68dfee1c118c53c4c83b446b71cef725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dae911beeea067f74b3c6f7fde1ee6') in 0.006106 seconds 
+  Import took 0.010483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021896 seconds.
+  path: Assets/_/Base/BaseScripts/EnemyHandler.cs
+  artifactKey: Guid(d0bc538a6432c2941a35032fc64ceefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/EnemyHandler.cs using Guid(d0bc538a6432c2941a35032fc64ceefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aff6b2477966b35ba50ffe749e92684') in 0.006030 seconds 
+  Import took 0.010347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019702 seconds.
+  path: Assets/_/Base/BaseScripts/FlyingBody.cs
+  artifactKey: Guid(7b973c9d3b04a8441b17e42d4e35c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/FlyingBody.cs using Guid(7b973c9d3b04a8441b17e42d4e35c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12525626812e5380b9e1385042bce38') in 0.006108 seconds 
+  Import took 0.010406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035464 seconds.
+  path: Assets/_/Base/BaseScripts/GameHandler_Setup.cs
+  artifactKey: Guid(f6da68fdbc29104498109291ab000b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/GameHandler_Setup.cs using Guid(f6da68fdbc29104498109291ab000b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab9522ece11214d4bf6480abf3ba1e1') in 0.006037 seconds 
+  Import took 0.010408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023909 seconds.
+  path: Assets/_/Base/BaseScripts/HealthSystem.cs
+  artifactKey: Guid(45750d1b1dc3dc842a66056e03c045d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/HealthSystem.cs using Guid(45750d1b1dc3dc842a66056e03c045d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbb6c391d7f15be13317401a3c8bd6b') in 0.006149 seconds 
+  Import took 0.010491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017491 seconds.
+  path: Assets/_/Base/BaseScripts/MaterialTintColor.cs
+  artifactKey: Guid(6893fa1527270f948afbfeaee5536ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/MaterialTintColor.cs using Guid(6893fa1527270f948afbfeaee5536ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac29bcea88509b7ed7c553ecc42d1d4') in 0.006332 seconds 
+  Import took 0.010733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019626 seconds.
+  path: Assets/_/Base/BaseScripts/Player.cs
+  artifactKey: Guid(d31944f6bba99384b94445338581ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/Player.cs using Guid(d31944f6bba99384b94445338581ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc5fc70582af43725b8fb4d82eacb97') in 0.005920 seconds 
+  Import took 0.010280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024754 seconds.
+  path: Assets/_/Base/BaseScripts/Player_Base.cs
+  artifactKey: Guid(815f8ad50ab994b40abf93d2478e2447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/Player_Base.cs using Guid(815f8ad50ab994b40abf93d2478e2447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d309b66b9346b667b48148c47878347') in 0.006807 seconds 
+  Import took 0.011113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.723483 seconds.
+  path: Assets/_/Base/BaseScripts/PlayerPositionMovement.cs
+  artifactKey: Guid(8e0395d17fbcad34c90808d658484141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/PlayerPositionMovement.cs using Guid(8e0395d17fbcad34c90808d658484141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002b9e3025f3d1f366a007236c89d6c8') in 0.007789 seconds 
+  Import took 0.014418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.846766 seconds.
+  path: Assets/_/Base/BaseScripts/PlayerPunch.cs
+  artifactKey: Guid(e2219cdb5eda4ec489ca69867a4d3eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/PlayerPunch.cs using Guid(e2219cdb5eda4ec489ca69867a4d3eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64dce69e5b34e54d16e5967e3565b21') in 0.012180 seconds 
+  Import took 0.020790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.171798 seconds.
+  path: Assets/_/Base/BaseScripts/PlayerSword.cs
+  artifactKey: Guid(d85782c4224b66049b225b9a91486c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/PlayerSword.cs using Guid(d85782c4224b66049b225b9a91486c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceabc06bcddccb3be2e3cfdae8a00d98') in 0.006174 seconds 
+  Import took 0.013078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.292946 seconds.
+  path: Assets/_/Base/2DRenderer.asset
+  artifactKey: Guid(ed10a5df6f26b374193c068a65e675a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/2DRenderer.asset using Guid(ed10a5df6f26b374193c068a65e675a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1df2f82f951f349287d7e072b6ef79') in 0.025610 seconds 
+  Import took 0.030488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178181 seconds.
+  path: Assets/_/Base/GameScene_Base.unity
+  artifactKey: Guid(7b983534fcd6adb4d8ec50e55837c14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/GameScene_Base.unity using Guid(7b983534fcd6adb4d8ec50e55837c14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625242b1002a0fce1815a3da208c7090') in 0.009394 seconds 
+  Import took 0.015515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.998851 seconds.
+  path: Assets/Inventory
+  artifactKey: Guid(1715d45232aa1a4418f279d9032296d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inventory using Guid(1715d45232aa1a4418f279d9032296d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675483d28ea6d8ae82465488d02fa15d') in 0.010990 seconds 
+  Import took 0.017591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.094091 seconds.
+  path: Assets/Inventory/Scripts/Inventory.cs
+  artifactKey: Guid(ec78bf983d0718c42ad87c7893bbf77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inventory/Scripts/Inventory.cs using Guid(ec78bf983d0718c42ad87c7893bbf77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02843870484435547e77b72f37eb5769') in 0.002849 seconds 
+  Import took 0.009158 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
