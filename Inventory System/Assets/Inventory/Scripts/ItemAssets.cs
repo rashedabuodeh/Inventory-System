@@ -12,7 +12,15 @@ public class ItemAssets : MonoBehaviour
         Instance = this;
     }
 
-    public Transform pfItemWorld;
+    public Transform M4Prefab;
+    public Transform ShotgunPrefab;
+    public Transform PistolPrefab;
+    public Transform Grenade_LauncherPrefab;
+    public Transform Beam_GunPrefab;
+
+    public Transform Rail_GunPrefab;
+    public Transform Rocket_LauncherPrefab;
+    public Transform Bomb_LauncherPrefab;
 
     public Sprite M4;
     public Sprite Shotgun;

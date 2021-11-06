@@ -11,7 +11,27 @@ public class ItemWorld : MonoBehaviour
 
     public static ItemWorld SpawnItemWorld(Vector3 position, Item item)
     {
-        Transform transform = Instantiate(ItemAssets.Instance.pfItemWorld, position, Quaternion.identity);
+        Transform transform;
+        switch (item.itemType)
+        {
+            default:
+            case Item.ItemType.M4:
+                transform = Instantiate(ItemAssets.Instance.M4Prefab, position, Quaternion.identity);
+                break;
+            case Item.ItemType.Shotgun:
+                transform = Instantiate(ItemAssets.Instance.ShotgunPrefab, position, Quaternion.identity);
+                break;
+            case Item.ItemType.Pistol:
+                transform = Instantiate(ItemAssets.Instance.PistolPrefab, position, Quaternion.identity);
+
+                break;
+            case Item.ItemType.M79_Grenade_Launcher:
+                transform = Instantiate(ItemAssets.Instance.Grenade_LauncherPrefab, position, Quaternion.identity);
+                break;
+            case Item.ItemType.Beam_Gun:
+                transform = Instantiate(ItemAssets.Instance.Beam_GunPrefab, position, Quaternion.identity);
+                break;
+        }
 
         ItemWorld itemWorld = transform.GetComponent<ItemWorld>();
         itemWorld.SetItem(item);
@@ -22,8 +42,8 @@ public class ItemWorld : MonoBehaviour
     public static ItemWorld DropItem(Vector3 dropPosition, Item item)
     {
         Vector3 randomDir = UtilsClass.GetRandomDir();
-        ItemWorld itemWorld = SpawnItemWorld(dropPosition + randomDir * 8f, item);
-        itemWorld.GetComponent<Rigidbody2D>().AddForce(randomDir * 40f, ForceMode2D.Impulse);
+        ItemWorld itemWorld = SpawnItemWorld(dropPosition + Vector3.one, item);
+        itemWorld.GetComponent<Rigidbody>().AddForce(randomDir * 40f, ForceMode.Impulse);
         return itemWorld;
     }
 
@@ -57,12 +77,12 @@ public class ItemWorld : MonoBehaviour
     {
         return item;
     }
-
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
             gameObject.SetActive(false);
     }
+
 
     public void DestroySelf()
     {

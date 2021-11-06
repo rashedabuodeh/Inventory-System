@@ -28,10 +28,13 @@ public class FirstPersonCharacter : MonoBehaviour
 
     public List<GameObject> Weapons;
     [SerializeField] private UI_Inventory uiInventory;
+    [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject background;
     public static bool gameIsPaused;
     public WeaponSystem weaponSystem;
     public List<Item> itemList;
     private Inventory inventory;
+    public AudioSource audioSource;
 
 
     void Awake()
@@ -60,9 +63,9 @@ public class FirstPersonCharacter : MonoBehaviour
 
     private Item item;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        ItemWorld itemWorld = other.GetComponent<ItemWorld>();
+        ItemWorld itemWorld = other.gameObject.GetComponent<ItemWorld>();
         if (itemWorld != null)
         {
             // Touching Item
@@ -76,6 +79,7 @@ public class FirstPersonCharacter : MonoBehaviour
                     return;
                 }
             }
+            audioSource.Play();
             switch (item.itemType)
             {
                 default:
@@ -128,25 +132,40 @@ public class FirstPersonCharacter : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            gameIsPaused = !gameIsPaused;
+            PauseGame();
+            if (gameIsPaused)
+            {
+                pauseMenu.gameObject.SetActive(true);
+                background.gameObject.SetActive(true);
+            }
         }
         if (Input.GetKeyDown(KeyCode.I) )
         {
             gameIsPaused = !gameIsPaused;
             PauseGame();
+            if (gameIsPaused)
+            {
+                uiInventory.gameObject.SetActive(true);
+                background.gameObject.SetActive(true);
+            }
+        }
+        if (!gameIsPaused)
+        {
+            pauseMenu.gameObject.SetActive(false);
+            uiInventory.gameObject.SetActive(false);
+            background.gameObject.SetActive(false);
         }
     }
 
 
-    void PauseGame()
+    public void PauseGame()
     {
         if (gameIsPaused)
         {
             Time.timeScale = 0f;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            uiInventory.gameObject.SetActive(true);
         }
         else
         {
