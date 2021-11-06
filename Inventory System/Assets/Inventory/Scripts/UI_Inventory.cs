@@ -8,16 +8,12 @@ using TMPro;
 public class UI_Inventory : MonoBehaviour {
 
     private Inventory inventory;
-    private Transform itemSlotContainer;
-    private Transform itemSlotTemplate;
-    private Player player;
+    [SerializeField] private Transform itemSlotContainer;
+    [SerializeField] private Transform itemSlotTemplate;
+    private FirstPersonCharacter player;
 
-    private void Awake() {
-        itemSlotContainer = transform.Find("itemSlotContainer");
-        itemSlotTemplate = itemSlotContainer.Find("itemSlotTemplate");
-    }
 
-    public void SetPlayer(Player player) {
+    public void SetPlayer(FirstPersonCharacter player) {
         this.player = player;
     }
 

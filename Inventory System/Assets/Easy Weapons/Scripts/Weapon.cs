@@ -80,7 +80,9 @@ public class Weapon : MonoBehaviour
 	public Auto auto = Auto.Full;						// How does this weapon fire - semi-auto or full-auto
 
 	// General
-	public bool playerWeapon = true;					// Whether or not this is a player's weapon as opposed to an AI's weapon
+	public bool isPlayerWeapon = false;					// Whether or not this is a player's weapon as opposed to an AI's weapon
+
+    public bool isPickedUp = false;					
 	public GameObject weaponModel;						// The actual mesh for this weapon
 	public Transform raycastStartSpot;					// The spot that the raycasting weapon system should use as an origin for rays
 	public float delayBeforeFire = 0.0f;				// An optional delay that causes the weapon to fire a specified amount of time after it normally would (0 for no delay)
@@ -134,7 +136,7 @@ public class Weapon : MonoBehaviour
 	public bool infiniteAmmo = false;					// Whether or not this weapon should have unlimited ammo
 	public int ammoCapacity = 12;						// The number of rounds this weapon can fire before it has to reload
 	public int shotPerRound = 1;						// The number of "bullets" that will be fired on each round.  Usually this will be 1, but set to a higher number for things like shotguns with spread
-	private int currentAmmo;							// How much ammo the weapon currently has
+	public int currentAmmo;							// How much ammo the weapon currently has
 	public float reloadTime = 2.0f;						// How much time it takes to reload the weapon
 	public bool showCurrentAmmo = true;					// Whether or not the current ammo should be displayed in the GUI
 	public bool reloadAutomatically = true;				// Whether or not the weapon should reload automatically when out of ammo
@@ -292,7 +294,7 @@ public class Weapon : MonoBehaviour
 		fireTimer += Time.deltaTime;
 
 		// CheckForUserInput() handles the firing based on user input
-		if (playerWeapon)
+		if (isPlayerWeapon && !FirstPersonCharacter.gameIsPaused )
 		{
 			CheckForUserInput();
 		}
@@ -302,7 +304,7 @@ public class Weapon : MonoBehaviour
 			Reload();
 
 		// Recoil Recovery
-		if (playerWeapon && recoil && type != WeaponType.Beam)
+		if (isPlayerWeapon && recoil && type != WeaponType.Beam)
 		{
 			weaponModel.transform.position = Vector3.Lerp(weaponModel.transform.position, transform.position, recoilRecoveryRate * Time.deltaTime);
 			weaponModel.transform.rotation = Quaternion.Lerp(weaponModel.transform.rotation, transform.rotation, recoilRecoveryRate * Time.deltaTime);
@@ -1054,7 +1056,7 @@ public class Weapon : MonoBehaviour
 
 
 	// Reload the weapon
-	void Reload()
+	public void Reload()
 	{
 		currentAmmo = ammoCapacity;
 		fireTimer = -reloadTime;
@@ -1075,7 +1077,7 @@ public class Weapon : MonoBehaviour
 	void Recoil()
 	{
 		// No recoil for AIs
-		if (!playerWeapon)
+		if (!isPlayerWeapon)
 			return;
 
 		// Make sure the user didn't leave the weapon model field blank

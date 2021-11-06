@@ -6,12 +6,16 @@ using UnityEngine;
 [Serializable]
 public class Item {
 
-    public enum ItemType {
-        Sword,
-        HealthPotion,
-        ManaPotion,
-        Coin,
-        Medkit,
+    public enum ItemType
+    {
+        M4,
+        Shotgun,
+        Pistol,
+        M79_Grenade_Launcher,
+        Beam_Gun,
+        Rail_Gun,
+        Rocket_Launcher,
+        Bomb_Launcher
     }
 
     public ItemType itemType;
@@ -21,36 +25,41 @@ public class Item {
     public Sprite GetSprite() {
         switch (itemType) {
         default:
-        case ItemType.Sword:        return ItemAssets.Instance.swordSprite;
-        case ItemType.HealthPotion: return ItemAssets.Instance.healthPotionSprite;
-        case ItemType.ManaPotion:   return ItemAssets.Instance.manaPotionSprite;
-        case ItemType.Coin:         return ItemAssets.Instance.coinSprite;
-        case ItemType.Medkit:       return ItemAssets.Instance.medkitSprite;
+        case ItemType.M4:        
+                return ItemAssets.Instance.M4;
+        case ItemType.Shotgun: 
+                return ItemAssets.Instance.Shotgun;
+        case ItemType.Pistol:  
+                return ItemAssets.Instance.Pistol;
+        case ItemType.M79_Grenade_Launcher:        
+                return ItemAssets.Instance.Grenade_Launcher;
+        case ItemType.Beam_Gun:       
+                return ItemAssets.Instance.Beam_Gun;
         }
     }
 
-    public Color GetColor() {
-        switch (itemType) {
-        default:
-        case ItemType.Sword:        return new Color(1, 1, 1);
-        case ItemType.HealthPotion: return new Color(1, 0, 0);
-        case ItemType.ManaPotion:   return new Color(0, 0, 1);
-        case ItemType.Coin:         return new Color(1, 1, 0);
-        case ItemType.Medkit:       return new Color(1, 0, 1);
-        }
-    }
+    //public Color GetColor() {
+    //    switch (itemType) {
+    //    default:
+    //    case ItemType.M4:        return new Color(1, 1, 1);
+    //    case ItemType.Shotgun: return new Color(1, 0, 0);
+    //    case ItemType.Pistol:   return new Color(0, 0, 1);
+    //    case ItemType.Coin:         return new Color(1, 1, 0);
+    //    case ItemType.Medkit:       return new Color(1, 0, 1);
+    //    }
+    //}
 
-    public bool IsStackable() {
-        switch (itemType) {
-        default:
-        case ItemType.Coin:
-        case ItemType.HealthPotion:
-        case ItemType.ManaPotion:
-            return true;
-        case ItemType.Sword:
-        case ItemType.Medkit:
-            return false;
-        }
-    }
+    //public bool IsStackable() {
+    //    switch (itemType) {
+    //    default:
+    //    case ItemType.Coin:
+    //    case ItemType.Shotgun:
+    //    case ItemType.Pistol:
+    //        return true;
+    //    case ItemType.M4:
+    //    case ItemType.Medkit:
+    //        return false;
+    //    }
+    //}
 
 }

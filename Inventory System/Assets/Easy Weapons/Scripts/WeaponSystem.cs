@@ -7,13 +7,16 @@
 
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class WeaponSystem : MonoBehaviour
 {
-	public GameObject[] weapons;				// The array that holds all the weapons that the player has
+	public List<GameObject> weapons;// The array that holds all the weapons that the player has
 	public int startingWeaponIndex = 0;			// The weapon index that the player will start with
-	private int weaponIndex;					// The current index of the active weapon
-
+	private int weaponIndex;                    // The current index of the active weapon
+	public Text ammoUI;
+	public Text ammoCapacityUI;
 
 	// Use this for initialization
 	void Start()
@@ -26,6 +29,8 @@ public class WeaponSystem : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		ammoUI.text = weapons[weaponIndex].GetComponent<Weapon>().currentAmmo.ToString();
+		ammoCapacityUI.text = weapons[weaponIndex].GetComponent<Weapon>().ammoCapacity.ToString();
 		// Allow the user to instantly switch to any weapon
 		if (Input.GetButtonDown("Weapon 1"))
 			SetActiveWeapon(0);
@@ -62,7 +67,7 @@ public class WeaponSystem : MonoBehaviour
 	public void SetActiveWeapon(int index)
 	{
 		// Make sure this weapon exists before trying to switch to it
-		if (index >= weapons.Length || index < 0)
+		if (index >= weapons.Count || index < 0)
 		{
 			Debug.LogWarning("Tried to switch to a weapon that does not exist.  Make sure you have all the correct weapons in your weapons array.");
 			return;
@@ -78,7 +83,7 @@ public class WeaponSystem : MonoBehaviour
 		weapons[index].GetComponent<Weapon>().StopBeam();
 
 		// Start be deactivating all weapons
-		for (int i = 0; i < weapons.Length; i++)
+		for (int i = 0; i < weapons.Count; i++)
 		{
 			weapons[i].SetActive(false);
 		}
@@ -90,7 +95,7 @@ public class WeaponSystem : MonoBehaviour
 	public void NextWeapon()
 	{
 		weaponIndex++;
-		if (weaponIndex > weapons.Length - 1)
+		if (weaponIndex > weapons.Count - 1)
 			weaponIndex = 0;
 		SetActiveWeapon(weaponIndex);
 	}
@@ -99,7 +104,7 @@ public class WeaponSystem : MonoBehaviour
 	{
 		weaponIndex--;
 		if (weaponIndex < 0)
-			weaponIndex = weapons.Length - 1;
+			weaponIndex = weapons.Count - 1;
 		SetActiveWeapon(weaponIndex);
 	}
 }

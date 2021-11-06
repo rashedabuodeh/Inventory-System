@@ -42,7 +42,7 @@ public class Player : MonoBehaviour {
         SetStateNormal();
 
         inventory = new Inventory(UseItem);
-        uiInventory.SetPlayer(this);
+        //uiInventory.SetPlayer(this);
         uiInventory.SetInventory(inventory);
     }
 
@@ -57,13 +57,13 @@ public class Player : MonoBehaviour {
 
     private void UseItem(Item item) {
         switch (item.itemType) {
-        case Item.ItemType.HealthPotion:
+        case Item.ItemType.Shotgun:
             FlashGreen();
-            inventory.RemoveItem(new Item { itemType = Item.ItemType.HealthPotion, amount = 1 });
+            inventory.RemoveItem(new Item { itemType = Item.ItemType.Shotgun, amount = 1 });
             break;
-        case Item.ItemType.ManaPotion:
+        case Item.ItemType.Pistol:
             FlashBlue();
-            inventory.RemoveItem(new Item { itemType = Item.ItemType.ManaPotion, amount = 1 });
+            inventory.RemoveItem(new Item { itemType = Item.ItemType.Pistol, amount = 1 });
             break;
         }
     }

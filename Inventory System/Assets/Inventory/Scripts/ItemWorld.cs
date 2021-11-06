@@ -5,9 +5,12 @@ using UnityEngine.Experimental.Rendering.LWRP;
 using TMPro;
 using CodeMonkey.Utils;
 
-public class ItemWorld : MonoBehaviour {
+public class ItemWorld : MonoBehaviour
+{
 
-    public static ItemWorld SpawnItemWorld(Vector3 position, Item item) {
+
+    public static ItemWorld SpawnItemWorld(Vector3 position, Item item)
+    {
         Transform transform = Instantiate(ItemAssets.Instance.pfItemWorld, position, Quaternion.identity);
 
         ItemWorld itemWorld = transform.GetComponent<ItemWorld>();
@@ -16,7 +19,8 @@ public class ItemWorld : MonoBehaviour {
         return itemWorld;
     }
 
-    public static ItemWorld DropItem(Vector3 dropPosition, Item item) {
+    public static ItemWorld DropItem(Vector3 dropPosition, Item item)
+    {
         Vector3 randomDir = UtilsClass.GetRandomDir();
         ItemWorld itemWorld = SpawnItemWorld(dropPosition + randomDir * 8f, item);
         itemWorld.GetComponent<Rigidbody2D>().AddForce(randomDir * 40f, ForceMode2D.Impulse);
@@ -24,34 +28,44 @@ public class ItemWorld : MonoBehaviour {
     }
 
 
-    private Item item;
-    private SpriteRenderer spriteRenderer;
-    private UnityEngine.Experimental.Rendering.Universal.Light2D light2D;
-    private TextMeshPro textMeshPro;
+    public Item item;
+    //private SpriteRenderer spriteRenderer;
+    //private UnityEngine.Experimental.Rendering.Universal.Light2D light2D;
+    //private TextMeshPro textMeshPro;
 
-    private void Awake() {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        light2D = transform.Find("Light").GetComponent<UnityEngine.Experimental.Rendering.Universal.Light2D>();
-        textMeshPro = transform.Find("Text").GetComponent<TextMeshPro>();
+    private void Awake()
+    {
+        //spriteRenderer = GetComponent<SpriteRenderer>();
+        SetItem(item);
+        //    light2D = transform.Find("Light").GetComponent<UnityEngine.Experimental.Rendering.Universal.Light2D>();
+        //    textMeshPro = transform.Find("Text").GetComponent<TextMeshPro>();
     }
 
-    public void SetItem(Item item) {
+    public void SetItem(Item item)
+    {
         this.item = item;
-        spriteRenderer.sprite = item.GetSprite();
-        light2D.color = item.GetColor();
-        if (item.amount > 1) {
-            textMeshPro.SetText(item.amount.ToString());
-        } else {
-            textMeshPro.SetText("");
-        }
+        //spriteRenderer.sprite = item.GetSprite();
+        //light2D.color = item.GetColor();
+        //if (item.amount > 1) {
+        //    textMeshPro.SetText(item.amount.ToString());
+        //} else {
+        //    textMeshPro.SetText("");
+        //}
     }
 
-    public Item GetItem() {
+    public Item GetItem()
+    {
         return item;
     }
 
-    public void DestroySelf() {
-        Destroy(gameObject);
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+            gameObject.SetActive(false);
     }
 
+    public void DestroySelf()
+    {
+        Destroy(gameObject);
+    }
 }

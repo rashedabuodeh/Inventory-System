@@ -52,7 +52,7 @@ public class WeaponEditor : Editor
 		showGeneral = EditorGUILayout.Foldout(showGeneral, "General");
 		if (showGeneral)
 		{
-			weapon.playerWeapon = EditorGUILayout.Toggle("Player's Weapon", weapon.playerWeapon);
+			weapon.isPlayerWeapon = EditorGUILayout.Toggle("Player's Weapon", weapon.isPlayerWeapon);
 			if (weapon.type == WeaponType.Raycast || weapon.type == WeaponType.Projectile)
 				weapon.auto = (Auto)EditorGUILayout.EnumPopup("Auto Type", weapon.auto);
 			weapon.weaponModel = (GameObject)EditorGUILayout.ObjectField("Weapon Model", weapon.weaponModel, typeof(GameObject), true);

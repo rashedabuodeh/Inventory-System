@@ -53,18 +53,18 @@
     <UnityVersion>2020.3.21f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\_\Stuff\V_Animation\V_Skeleton_Updater.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\SaveSystem.cs" />
     <Compile Include="Assets\_\Stuff\V_Animation\BodyPart.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\V_Skeleton_Anim.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\UVType.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\V_UnitAnimation.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\V_Animation.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\V_UnitSkeleton.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\UnitAnim.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\CLZF2.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\UnitAnimType.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\SaveSystem.cs" />
     <Compile Include="Assets\_\Stuff\V_Animation\V_Skeleton_Frame.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\UnitAnimType.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\V_Skeleton_Anim.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\V_Skeleton_Updater.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\V_Animation.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\UVType.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\CLZF2.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\V_UnitAnimation.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\UnitAnim.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\V_UnitSkeleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_\Stuff\V_Animation\V_Animation.asmdef" />
@@ -295,12 +295,6 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -324,12 +318,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
