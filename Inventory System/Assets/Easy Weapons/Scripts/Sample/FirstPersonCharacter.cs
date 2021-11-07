@@ -34,7 +34,6 @@ public class FirstPersonCharacter : MonoBehaviour
     public WeaponSystem weaponSystem;
     public List<Item> itemList;
     private Inventory inventory;
-    public AudioSource audioSource;
 
 
     void Awake()
@@ -79,7 +78,6 @@ public class FirstPersonCharacter : MonoBehaviour
                     return;
                 }
             }
-            audioSource.Play();
             switch (item.itemType)
             {
                 default:
@@ -95,7 +93,7 @@ public class FirstPersonCharacter : MonoBehaviour
                 case Item.ItemType.M79_Grenade_Launcher:
                     weaponSystem.weapons.Add(Weapons[3]);
                     break;
-                case Item.ItemType.Beam_Gun:
+                case Item.ItemType.Rocket_Launcher:
                     weaponSystem.weapons.Add(Weapons[4]);
                     break;
             }
@@ -108,10 +106,10 @@ public class FirstPersonCharacter : MonoBehaviour
         switch (item.itemType)
         {
             case Item.ItemType.Shotgun:
-                inventory.RemoveItem(new Item { itemType = Item.ItemType.Shotgun, amount = 1 });
+                //inventory.RemoveItem(new Item { itemType = Item.ItemType.Shotgun, amount = 1 });
                 break;
             case Item.ItemType.Pistol:
-                inventory.RemoveItem(new Item { itemType = Item.ItemType.Pistol, amount = 1 });
+                //inventory.RemoveItem(new Item { itemType = Item.ItemType.Pistol, amount = 1 });
                 break;
         }
     }
@@ -261,7 +259,11 @@ public class FirstPersonCharacter : MonoBehaviour
 
     public Vector3 GetPosition()
     {
-        return transform.position;
+        return transform.localPosition;
+    }
+    public Vector3 GetDirection()
+    {
+        return transform.forward;
     }
 
     //used for comparing distances

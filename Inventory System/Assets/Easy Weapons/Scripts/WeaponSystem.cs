@@ -12,9 +12,9 @@ using UnityEngine.UI;
 
 public class WeaponSystem : MonoBehaviour
 {
-	public List<GameObject> weapons;// The array that holds all the weapons that the player has
-	public int startingWeaponIndex = 0;			// The weapon index that the player will start with
-	private int weaponIndex;                    // The current index of the active weapon
+	public List<GameObject> weapons;     // The array that holds all the weapons that the player has
+	public int startingWeaponIndex = 0;  // The weapon index that the player will start with
+	public int weaponIndex;              // The current index of the active weapon
 	public Text ammoUI;
 	public Text ammoCapacityUI;
 
@@ -29,6 +29,8 @@ public class WeaponSystem : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		if (weaponIndex > weapons.Count - 1)
+			weaponIndex--;
 		ammoUI.text = weapons[weaponIndex].GetComponent<Weapon>().currentAmmo.ToString();
 		ammoCapacityUI.text = weapons[weaponIndex].GetComponent<Weapon>().ammoCapacity.ToString();
 		// Allow the user to instantly switch to any weapon
@@ -44,12 +46,7 @@ public class WeaponSystem : MonoBehaviour
 			SetActiveWeapon(4);
 		if (Input.GetButtonDown("Weapon 6"))
 			SetActiveWeapon(5);
-		if (Input.GetButtonDown("Weapon 7"))
-			SetActiveWeapon(6);
-		if (Input.GetButtonDown("Weapon 8"))
-			SetActiveWeapon(7);
-		if (Input.GetButtonDown("Weapon 9"))
-			SetActiveWeapon(8);
+
 
 		// Allow the user to scroll through the weapons
 		if (Input.GetAxis("Mouse ScrollWheel") > 0)
@@ -58,10 +55,28 @@ public class WeaponSystem : MonoBehaviour
 			PreviousWeapon();
 	}
 
-	void OnGUI()
-	{
+	public void RemoveWeapon(Item item)
+    {
+        for (int i = 0; i < weapons.Count; i++)
+		{
+			if (weapons[i].activeInHierarchy)
+				NextWeapon();
 
-
+			if (weapons[i].GetComponent<ItemWorld>().item.itemType == item.itemType)
+            {
+				weapons.Remove(weapons[i]);
+			}
+		}
+	}
+	public void ChooseWeapon(Item item)
+    {
+        for (int i = 0; i < weapons.Count; i++)
+		{
+			if (weapons[i].GetComponent<ItemWorld>().item.itemType == item.itemType)
+            {
+				SetActiveWeapon(i);
+			}
+		}
 	}
 
 	public void SetActiveWeapon(int index)
